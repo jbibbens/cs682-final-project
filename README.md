@@ -35,3 +35,19 @@ Max photos for Philadelphia: 1716:421019800021
 Max photos for San Antonio: 6536:480291612001
 Max photos for San Diego: 22116:60739901000
 Max photos for Jacksonville: 27452:120310173003
+
+There are 559 distinct CBGs in New York with more than 20 rows.
+There are 846 distinct CBGs in Los Angeles with more than 20 rows.
+There are 559 distinct CBGs in Chicago with more than 20 rows.
+There are 587 distinct CBGs in Dallas with more than 20 rows.
+There are 1240 distinct CBGs in Houston with more than 20 rows.
+There are 611 distinct CBGs in Phoenix with more than 20 rows.
+There are 309 distinct CBGs in Philadelphia with more than 20 rows.
+There are 565 distinct CBGs in San Antonio with more than 20 rows.
+There are 283 distinct CBGs in San Diego with more than 20 rows.
+There are 536 distinct CBGs in Jacksonville with more than 20 rows.
+
+6095 total tracts
+
+Leave out LA: test is 13.8%
+Remainder 5249 I want 18.8% of these to go to val

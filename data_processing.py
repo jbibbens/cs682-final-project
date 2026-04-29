@@ -7,7 +7,7 @@ def filter_cities():
     df = pd.read_csv('./Indicators_for_SDG_1_CBG_level.csv')
 
     # 2. Define your list of allowed cities
-    allowed_cities = ['New York city', 'Los Angeles city', 'Chicago city', 'Houston city', 'Phoenix city', 'Philadelphia city', 'San Antonio city', 'San Diego city', 'Jacksonville city']
+    allowed_cities = ['New York city', 'Los Angeles city', 'Dallas city', 'Chicago city', 'Houston city', 'Phoenix city', 'Philadelphia city', 'San Antonio city', 'San Diego city', 'Jacksonville city']
     allowed_year = [2021]
 
     # 3. Filter the dataframe
@@ -58,10 +58,10 @@ def plot_cbg_count():
         plt.show()
 
 def clean_mapping():
-    #city_list = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
+    #city_list = ['New York', 'Los Angeles', 'Chicago', 'Dallas', 'Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
     city_list = ['Dallas']
     for city in city_list:
-        df = pd.read_csv(f'./year2020_to_2023/images_within_CBGs_in_{city}_city.csv')
+        df = pd.read_csv(f'./within/cleaned_{city} city.csv')
 
         # Convert Zoom 19 to Zoom 18
         df['x_18'] = df['x_tile19'] // 2
@@ -75,16 +75,16 @@ def clean_mapping():
         df_final = df.drop_duplicates(subset=['filename'], keep='first')
 
         # Now you have a clean 1:1 mapping
-        df_final[['filename', 'CBG Code']].to_csv(f'final_image_to_cbg_{city}.csv', index=False)
+        df_final[['filename', 'CBG Code']].to_csv(f'./image_to_cbg/{city}.csv', index=False)
 
 def right_size():
-    city_list = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
+    city_list = ['New York', 'Los Angeles', 'Chicago', 'Dallas','Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
     for city in city_list:
         # 1. Define your threshold X
         X = 20 
 
         # 2. Load your data
-        df = pd.read_csv(f'./image_to_cbg/final_image_to_cbg_{city}.csv')
+        df = pd.read_csv(f'./image_to_cbg_unfiltered/final_image_to_cbg_{city}.csv')
         # 2. Get counts for each CBG
         cbg_counts = df['CBG Code'].value_counts()
 
@@ -99,10 +99,10 @@ def right_size():
 
 
 def stratified_sample():
-    #city_list = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
-    city_list = ['Dallas']
+    #city_list = ['New York', 'Los Angeles', 'Dallas','Chicago', 'Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
+    city_list = ['Dallas']      
     for city in city_list:
-        filtered_df = pd.read_csv(f'./image_to_cbg/final_image_to_cbg_{city}.csv')
+        filtered_df = pd.read_csv(f'./image_to_cbg/{city}.csv')
         # 1. Configuration
         N = 20  # Number of rows per CBG
         M = 250 # Number of distinct CBGs to select
@@ -111,15 +111,15 @@ def stratified_sample():
         cbg_counts = filtered_df['CBG Code'].value_counts()
         eligible_cbgs = cbg_counts[cbg_counts >= N].index.tolist()
 
-        # 3. Check if we have enough distinct CBGs
-        if len(eligible_cbgs) < M:
-            print(f"Warning: Only found {len(eligible_cbgs)} CBGs with {N}+ rows.")
-            # You might want to adjust M here or stop the script
-            selected_cbgs = eligible_cbgs 
-        else:
-            # Pick M distinct CBGs (using [:M] for the first M, 
-            # or use random.sample(eligible_cbgs, M) for a random selection)
-            selected_cbgs = eligible_cbgs[:M]
+        # # 3. Check if we have enough distinct CBGs
+        # if len(eligible_cbgs) < M:
+        #     print(f"Warning: Only found {len(eligible_cbgs)} CBGs with {N}+ rows.")
+        #     # You might want to adjust M here or stop the script
+        #     selected_cbgs = eligible_cbgs 
+        # else:
+        #     # Pick M distinct CBGs (using [:M] for the first M, 
+        #     # or use random.sample(eligible_cbgs, M) for a random selection)
+        selected_cbgs = eligible_cbgs[:M]
 
         # 4. Filter and Sample
         # We filter the dataframe for only our selected CBGs, 
@@ -131,15 +131,15 @@ def stratified_sample():
         )
 
         # 5. Save the result
-        final_df.to_csv(f'./image_to_cbg/stratified_sample_{city}.csv', index=False)
+        final_df.to_csv(f'./labels/{city}.csv', index=False)
 
 def left_semi_join():
-    #city_list = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
-    city_list = ['Dallas']
+    #city_list = ['New York', 'Los Angeles', 'Chicago', 'Dallas','Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
+    city_list = ['Dallas']  
     
     for city in city_list:
-        mapping_df = pd.read_csv(f'./image_to_cbg/stratified_sample_{city}.csv')
-        input_df = pd.read_csv(f'./satellite_imagery_collection/tilefile_scd/{city} city.csv')
+        mapping_df = pd.read_csv(f'./labels/{city}.csv')
+        input_df = pd.read_csv(f'./satellite_imagery_collection/tilefile_unfiltered/{city} city.csv')
 
         input_df['filename_check'] = (
             input_df['y_tile'].astype(str) + 
@@ -154,7 +154,7 @@ def left_semi_join():
 
         # 4. Cleanup: Remove the helper column and save
         final_output = filtered_input.drop(columns=['filename_check'])
-        final_output.to_csv(f'./satellite_imagery_collection/tilefile_scd/{city}_filtered.csv', index=False)
+        final_output.to_csv(f'./satellite_imagery_collection/tilefile_scd/{city}.csv', index=False)
 
 def do_merge():
     city_list = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Dallas', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
@@ -189,4 +189,51 @@ def do_merge():
         # 5. Save the result
         final_output.to_csv(f'./satellite_imagery_collection/tilefile_scd/{city}_filtered.csv', index=False)
 
-do_merge()
+def add_poverty_rate():
+
+    city_list = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Dallas', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
+    
+    for city in city_list:
+        # 1. Load the census data (the file with all cities)
+        census_df = pd.read_csv('filtered_cities.csv')
+
+        # 2. Calculate the Poverty Rate
+        # We sum Above and Below to get the total population evaluated for poverty
+        census_df['Total Pop for Poverty'] = (
+            census_df['Population Above Poverty'] + census_df['Population Below Poverty']
+        )
+
+        # Avoid division by zero for empty tracts
+        census_df['Poverty Rate'] = census_df['Population Below Poverty'] / census_df['Total Pop for Poverty']
+        census_df['Poverty Rate'] = census_df['Poverty Rate'].fillna(0) # Handle 0/0 cases
+
+        # 3. Load your city-specific image mapping file
+        city_mapping_df = pd.read_csv(f'./labels/{city}.csv')
+
+        # 4. Merge the Poverty Rate into the mapping file
+        # We use a 'left' join to keep all image filenames
+        result_df = pd.merge(
+            city_mapping_df,
+            census_df[['CBG Code', 'Poverty Rate']],
+            on='CBG Code',
+            how='left'
+        )
+
+        # 5. Save the updated file
+        result_df.to_csv(f'./labels/{city}.csv', index=False)
+
+def filter_no_data():
+    city_list = ['Dallas']
+    
+    for city in city_list:
+        # 1. Load the census data (the file with all cities)
+        census_df = pd.read_csv('filtered_cities.csv', dtype={'CBG Code': str})
+        valid_cbgs = census_df['CBG Code'].unique()
+        mapping_df = pd.read_csv(f'./within/images_within_CBGs_in_{city} city.csv', dtype={'CBG Code': str})
+
+        filtered_mapping_df = mapping_df[mapping_df['CBG Code'].isin(valid_cbgs)]
+
+        filtered_mapping_df.to_csv(f'./within/cleaned_{city} city.csv', index=False)
+
+
+add_poverty_rate()

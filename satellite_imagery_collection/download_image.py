@@ -37,7 +37,7 @@ def subtask(order,Npara,Nlp,csv_file_list,token):
     base_url = 'https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/48376/'  #2021 #########important number
     
     new_lines = [csv_file_list[x] for x in lines]
-    print(new_lines)
+
     for csv_file in new_lines:
         city = csv_file.split('/')[-1].split('.')[0]
         #if city[0] not in ['F','G','H','I','J','L']:
@@ -49,7 +49,14 @@ def subtask(order,Npara,Nlp,csv_file_list,token):
 
         csv_file_data = pd.read_csv(csv_file)
         for i in range(len(csv_file_data)):
-            Dir = 'data_dir/'+city+'/'+str(csv_file_data.at[i,'CBG Code'])
+            if city == 'Los Angeles':
+                Dir = 'data_dir/test/'+city+'/'+str(csv_file_data.at[i,'CBG Code'])
+            else:
+                # split data into train and validation
+                if random.random() < 0.188: # this ensures 70% of total data is training, 16.2 val, 13.8 test
+                    Dir = 'data_dir/val/'+city+'/'+str(csv_file_data.at[i,'CBG Code'])
+                else:      
+                    Dir = 'data_dir/train/'+city+'/'+str(csv_file_data.at[i,'CBG Code'])
             if not os.path.exists(Dir):
                 os.makedirs(Dir)
 
@@ -58,7 +65,7 @@ def subtask(order,Npara,Nlp,csv_file_list,token):
     
             y_tile = int(csv_file_data.at[i,'y_tile'])
             x_tile = int(csv_file_data.at[i,'x_tile'])
-            print(y_tile, x_tile)
+            #print(y_tile, x_tile)
            
             if os.path.exists(Dir+'/'+str(y_tile)+'_'+str(x_tile)+'.png'):
                 continue
