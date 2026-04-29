@@ -235,5 +235,13 @@ def filter_no_data():
 
         filtered_mapping_df.to_csv(f'./within/cleaned_{city} city.csv', index=False)
 
+def remove_extra_col():
 
-add_poverty_rate()
+    city_list = city_list = ['New York', 'Los Angeles', 'Chicago','Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
+
+    for city in city_list:
+        df = pd.read_csv(f'./labels/{city}.csv')
+        df = df.drop(columns=['Poverty Rate_y'])
+        df.to_csv(f'./labels/{city}.csv', index=False)
+
+remove_extra_col()
