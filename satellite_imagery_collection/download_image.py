@@ -43,14 +43,16 @@ def subtask(order,Npara,Nlp,csv_file_list,token):
         #if city[0] not in ['F','G','H','I','J','L']:
         #    continue
 
-        Dir = 'zl19_images/'+str(year)+'/'+city
-        if not os.path.exists(Dir):
-            os.makedirs(Dir)
         print(csv_file)
         print(city)
 
+
         csv_file_data = pd.read_csv(csv_file)
         for i in range(len(csv_file_data)):
+            Dir = 'data_dir/'+city+'/'+str(csv_file_data.at[i,'CBG Code'])
+            if not os.path.exists(Dir):
+                os.makedirs(Dir)
+
 
             msk = np.zeros((256*2, 256*2,3))
     
