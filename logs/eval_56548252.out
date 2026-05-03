@@ -1,0 +1,3 @@
+Using device: cuda
+Loading SatDINO checkpoint from /home/saddy_umass_edu/cs682-final-project/checkpoints/satdino-vit_small-16.pth
+Using 'teacher' weights from checkpoint.

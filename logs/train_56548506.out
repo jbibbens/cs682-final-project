@@ -1,0 +1,1335 @@
+Using device: cuda
+Loading SatDINO checkpoint from /home/saddy_umass_edu/cs682-final-project/checkpoints/satdino-vit_small-16.pth
+Using 'teacher' weights from checkpoint.
+Missing keys: []
+Unexpected keys: ['gsd_register']
+SatDINO loaded. Feature dim: 384
+Warning: Chicago/170310104003 has no label, skipping.
+Warning: Chicago/170311003001 has no label, skipping.
+Warning: Chicago/170312521011 has no label, skipping.
+Warning: Chicago/170312925003 has no label, skipping.
+Warning: Chicago/170313301011 has no label, skipping.
+Warning: Chicago/170314805003 has no label, skipping.
+Warning: Chicago/170315101002 has no label, skipping.
+Warning: Chicago/170315103002 has no label, skipping.
+Warning: Chicago/170315304001 has no label, skipping.
+Warning: Chicago/170315305011 has no label, skipping.
+Warning: Chicago/170315305033 has no label, skipping.
+Warning: Chicago/170315501001 has no label, skipping.
+Warning: Chicago/170315501005 has no label, skipping.
+Warning: Chicago/170315702001 has no label, skipping.
+Warning: Chicago/170316103001 has no label, skipping.
+Warning: Chicago/170316119002 has no label, skipping.
+Warning: Chicago/170316122003 has no label, skipping.
+Warning: Chicago/170316306001 has no label, skipping.
+Warning: Chicago/170316306002 has no label, skipping.
+Warning: Chicago/170316609003 has no label, skipping.
+Warning: Chicago/170317001002 has no label, skipping.
+Warning: Chicago/170317307002 has no label, skipping.
+Warning: Chicago/170317402001 has no label, skipping.
+Warning: Chicago/170318305001 has no label, skipping.
+Warning: Chicago/170318311001 has no label, skipping.
+Warning: Chicago/170318361002 has no label, skipping.
+Warning: Chicago/170318382002 has no label, skipping.
+Warning: Chicago/170318413004 has no label, skipping.
+Warning: Chicago/170318428004 has no label, skipping.
+Warning: Chicago/170318438001 has no label, skipping.
+Warning: Chicago/170318439001 has no label, skipping.
+Warning: Chicago/170318446001 has no label, skipping.
+Warning: Chicago/170319800001 has no label, skipping.
+Warning: Houston/481576729033 has no label, skipping.
+Warning: Houston/481576730062 has no label, skipping.
+Warning: Houston/481576730071 has no label, skipping.
+Warning: Houston/481576731073 has no label, skipping.
+Warning: Houston/481576734031 has no label, skipping.
+Warning: Houston/482011000011 has no label, skipping.
+Warning: Houston/482012114003 has no label, skipping.
+Warning: Houston/482012115011 has no label, skipping.
+Warning: Houston/482012115021 has no label, skipping.
+Warning: Houston/482012117002 has no label, skipping.
+Warning: Houston/482012123003 has no label, skipping.
+Warning: Houston/482012216022 has no label, skipping.
+Warning: Houston/482012227022 has no label, skipping.
+Warning: Houston/482012305003 has no label, skipping.
+Warning: Houston/482012311001 has no label, skipping.
+Warning: Houston/482012312004 has no label, skipping.
+Warning: Houston/482012319002 has no label, skipping.
+Warning: Houston/482012322012 has no label, skipping.
+Warning: Houston/482012324052 has no label, skipping.
+Warning: Houston/482012325002 has no label, skipping.
+Warning: Houston/482012333001 has no label, skipping.
+Warning: Houston/482012401022 has no label, skipping.
+Warning: Houston/482012404003 has no label, skipping.
+Warning: Houston/482012404004 has no label, skipping.
+Warning: Houston/482012407063 has no label, skipping.
+Warning: Houston/482012409032 has no label, skipping.
+Warning: Houston/482012413022 has no label, skipping.
+Warning: Houston/482012415011 has no label, skipping.
+Warning: Houston/482012415013 has no label, skipping.
+Warning: Houston/482012415031 has no label, skipping.
+Warning: Houston/482012415032 has no label, skipping.
+Warning: Houston/482012501013 has no label, skipping.
+Warning: Houston/482012504033 has no label, skipping.
+Warning: Houston/482012506021 has no label, skipping.
+Warning: Houston/482012508012 has no label, skipping.
+Warning: Houston/482012508022 has no label, skipping.
+Warning: Houston/482012509011 has no label, skipping.
+Warning: Houston/482012509012 has no label, skipping.
+Warning: Houston/482012509022 has no label, skipping.
+Warning: Houston/482012509023 has no label, skipping.
+Warning: Houston/482012509024 has no label, skipping.
+Warning: Houston/482012510003 has no label, skipping.
+Warning: Houston/482012515012 has no label, skipping.
+Warning: Houston/482012517011 has no label, skipping.
+Warning: Houston/482012517012 has no label, skipping.
+Warning: Houston/482012517013 has no label, skipping.
+Warning: Houston/482012517022 has no label, skipping.
+Warning: Houston/482012519033 has no label, skipping.
+Warning: Houston/482012519042 has no label, skipping.
+Warning: Houston/482012520011 has no label, skipping.
+Warning: Houston/482012520012 has no label, skipping.
+Warning: Houston/482012520031 has no label, skipping.
+Warning: Houston/482012520032 has no label, skipping.
+Warning: Houston/482012520033 has no label, skipping.
+Warning: Houston/482013131021 has no label, skipping.
+Warning: Houston/482013132011 has no label, skipping.
+Warning: Houston/482013144022 has no label, skipping.
+Warning: Houston/482013202012 has no label, skipping.
+Warning: Houston/482013240003 has no label, skipping.
+Warning: Houston/482013241021 has no label, skipping.
+Warning: Houston/482013242002 has no label, skipping.
+Warning: Houston/482013303013 has no label, skipping.
+Warning: Houston/482013308011 has no label, skipping.
+Warning: Houston/482013308012 has no label, skipping.
+Warning: Houston/482013308022 has no label, skipping.
+Warning: Houston/482013309011 has no label, skipping.
+Warning: Houston/482013309013 has no label, skipping.
+Warning: Houston/482013309021 has no label, skipping.
+Warning: Houston/482013312003 has no label, skipping.
+Warning: Houston/482013313001 has no label, skipping.
+Warning: Houston/482013315022 has no label, skipping.
+Warning: Houston/482013332031 has no label, skipping.
+Warning: Houston/482013333021 has no label, skipping.
+Warning: Houston/482013333022 has no label, skipping.
+Warning: Houston/482013336001 has no label, skipping.
+Warning: Houston/482013338013 has no label, skipping.
+Warning: Houston/482013339052 has no label, skipping.
+Warning: Houston/482013341012 has no label, skipping.
+Warning: Houston/482013341013 has no label, skipping.
+Warning: Houston/482013341022 has no label, skipping.
+Warning: Houston/482013401011 has no label, skipping.
+Warning: Houston/482013401021 has no label, skipping.
+Warning: Houston/482013401022 has no label, skipping.
+Warning: Houston/482013402011 has no label, skipping.
+Warning: Houston/482013402023 has no label, skipping.
+Warning: Houston/482013409004 has no label, skipping.
+Warning: Houston/482013410022 has no label, skipping.
+Warning: Houston/482013413041 has no label, skipping.
+Warning: Houston/482013436011 has no label, skipping.
+Warning: Houston/482013501042 has no label, skipping.
+Warning: Houston/482013508033 has no label, skipping.
+Warning: Houston/482014301021 has no label, skipping.
+Warning: Houston/482014310011 has no label, skipping.
+Warning: Houston/482014401011 has no label, skipping.
+Warning: Houston/482014518004 has no label, skipping.
+Warning: Houston/482014521012 has no label, skipping.
+Warning: Houston/482014525012 has no label, skipping.
+Warning: Houston/482014545041 has no label, skipping.
+Warning: Houston/482014545051 has no label, skipping.
+Warning: Houston/482015108021 has no label, skipping.
+Warning: Houston/482015109022 has no label, skipping.
+Warning: Houston/482015205011 has no label, skipping.
+Warning: Houston/482015334021 has no label, skipping.
+Warning: Houston/482015341011 has no label, skipping.
+Warning: Houston/482015341012 has no label, skipping.
+Warning: Houston/482015401013 has no label, skipping.
+Warning: Houston/482015401021 has no label, skipping.
+Warning: Houston/482015409041 has no label, skipping.
+Warning: Houston/482015417013 has no label, skipping.
+Warning: Houston/482015417022 has no label, skipping.
+Warning: Houston/482015417033 has no label, skipping.
+Warning: Houston/482015418022 has no label, skipping.
+Warning: Houston/482015419011 has no label, skipping.
+Warning: Houston/482015423051 has no label, skipping.
+Warning: Houston/482015425002 has no label, skipping.
+Warning: Houston/482015429013 has no label, skipping.
+Warning: Houston/482015429023 has no label, skipping.
+Warning: Houston/482015430072 has no label, skipping.
+Warning: Houston/482015430073 has no label, skipping.
+Warning: Houston/482015432011 has no label, skipping.
+Warning: Houston/482015432022 has no label, skipping.
+Warning: Houston/482015502022 has no label, skipping.
+Warning: Houston/482015503072 has no label, skipping.
+Warning: Houston/482015514004 has no label, skipping.
+Warning: Houston/482015515013 has no label, skipping.
+Warning: Houston/482015515021 has no label, skipping.
+Warning: Houston/482015534033 has no label, skipping.
+Warning: Houston/482015534052 has no label, skipping.
+Warning: Houston/482015542022 has no label, skipping.
+Warning: Houston/482015544051 has no label, skipping.
+Warning: Houston/482015544093 has no label, skipping.
+Warning: Houston/482015549052 has no label, skipping.
+Warning: Houston/482015550011 has no label, skipping.
+Warning: Houston/482015555033 has no label, skipping.
+Warning: Houston/482019800001 has no label, skipping.
+Warning: Houston/482019801001 has no label, skipping.
+Warning: Houston/483396914031 has no label, skipping.
+Warning: Houston/483396919002 has no label, skipping.
+Warning: Houston/483396923033 has no label, skipping.
+Warning: Houston/483396924021 has no label, skipping.
+Warning: New York/360050001000 has no label, skipping.
+Warning: New York/360050001001 has no label, skipping.
+Warning: New York/360050002000 has no label, skipping.
+Warning: New York/360050004000 has no label, skipping.
+Warning: New York/360050019032 has no label, skipping.
+Warning: New York/360050019040 has no label, skipping.
+Warning: New York/360050024001 has no label, skipping.
+Warning: New York/360050090000 has no label, skipping.
+Warning: New York/360050093020 has no label, skipping.
+Warning: New York/360050093021 has no label, skipping.
+Warning: New York/360050093022 has no label, skipping.
+Warning: New York/360050096002 has no label, skipping.
+Warning: New York/360050110001 has no label, skipping.
+Warning: New York/360050117021 has no label, skipping.
+Warning: New York/360050118000 has no label, skipping.
+Warning: New York/360050118001 has no label, skipping.
+Warning: New York/360050132000 has no label, skipping.
+Warning: New York/360050138000 has no label, skipping.
+Warning: New York/360050138001 has no label, skipping.
+Warning: New York/360050160000 has no label, skipping.
+Warning: New York/360050163001 has no label, skipping.
+Warning: New York/360050194001 has no label, skipping.
+Warning: New York/360050274020 has no label, skipping.
+Warning: New York/360050276000 has no label, skipping.
+Warning: New York/360050276001 has no label, skipping.
+Warning: New York/360050284001 has no label, skipping.
+Warning: New York/360050293010 has no label, skipping.
+Warning: New York/360050309000 has no label, skipping.
+Warning: New York/360050309001 has no label, skipping.
+Warning: New York/360050309002 has no label, skipping.
+Warning: New York/360050334001 has no label, skipping.
+Warning: New York/360050397001 has no label, skipping.
+Warning: New York/360050409001 has no label, skipping.
+Warning: New York/360050409002 has no label, skipping.
+Warning: New York/360050435021 has no label, skipping.
+Warning: New York/360050435031 has no label, skipping.
+Warning: New York/360050462033 has no label, skipping.
+Warning: New York/360050462055 has no label, skipping.
+Warning: New York/360050504000 has no label, skipping.
+Warning: New York/360050504001 has no label, skipping.
+Warning: New York/360050516010 has no label, skipping.
+Warning: New York/360050516020 has no label, skipping.
+Warning: New York/360470018021 has no label, skipping.
+Warning: New York/360470018030 has no label, skipping.
+Warning: New York/360470018031 has no label, skipping.
+Warning: New York/360470018040 has no label, skipping.
+Warning: New York/360470034000 has no label, skipping.
+Warning: New York/360470044000 has no label, skipping.
+Warning: New York/360470046000 has no label, skipping.
+Warning: New York/360470050000 has no label, skipping.
+Warning: New York/360470053010 has no label, skipping.
+Warning: New York/360470053020 has no label, skipping.
+Warning: New York/360470053022 has no label, skipping.
+Warning: New York/360470154001 has no label, skipping.
+Warning: New York/360470164000 has no label, skipping.
+Warning: New York/360470175001 has no label, skipping.
+Warning: New York/360470177001 has no label, skipping.
+Warning: New York/360470336000 has no label, skipping.
+Warning: New York/360470352000 has no label, skipping.
+Warning: New York/360470449022 has no label, skipping.
+Warning: New York/360470449023 has no label, skipping.
+Warning: New York/360470543001 has no label, skipping.
+Warning: New York/360470579021 has no label, skipping.
+Warning: New York/360470616000 has no label, skipping.
+Warning: New York/360470666000 has no label, skipping.
+Warning: New York/360470666001 has no label, skipping.
+Warning: New York/360470702020 has no label, skipping.
+Warning: New York/360470702021 has no label, skipping.
+Warning: New York/360470702030 has no label, skipping.
+Warning: New York/360470702031 has no label, skipping.
+Warning: New York/360470706020 has no label, skipping.
+Warning: New York/360470706021 has no label, skipping.
+Warning: New York/360471028021 has no label, skipping.
+Warning: New York/360471034021 has no label, skipping.
+Warning: New York/360471070011 has no label, skipping.
+Warning: New York/360471070020 has no label, skipping.
+Warning: New York/360471070021 has no label, skipping.
+Warning: New York/360471180001 has no label, skipping.
+Warning: New York/360479901000 has no label, skipping.
+Warning: New York/360610005000 has no label, skipping.
+Warning: New York/360610005001 has no label, skipping.
+Warning: New York/360610062000 has no label, skipping.
+Warning: New York/360610079000 has no label, skipping.
+Warning: New York/360610143001 has no label, skipping.
+Warning: New York/360610152000 has no label, skipping.
+Warning: New York/360610162000 has no label, skipping.
+Warning: New York/360610240000 has no label, skipping.
+Warning: New York/360610240001 has no label, skipping.
+Warning: New York/360610240002 has no label, skipping.
+Warning: New York/360610255000 has no label, skipping.
+Warning: New York/360610275000 has no label, skipping.
+Warning: New York/360610287000 has no label, skipping.
+Warning: New York/360610297000 has no label, skipping.
+Warning: New York/360610297001 has no label, skipping.
+Warning: New York/360610311001 has no label, skipping.
+Warning: New York/360610317030 has no label, skipping.
+Warning: New York/360810001041 has no label, skipping.
+Warning: New York/360810107010 has no label, skipping.
+Warning: New York/360810107011 has no label, skipping.
+Warning: New York/360810171011 has no label, skipping.
+Warning: New York/360810199021 has no label, skipping.
+Warning: New York/360810199031 has no label, skipping.
+Warning: New York/360810219001 has no label, skipping.
+Warning: New York/360810229001 has no label, skipping.
+Warning: New York/360810306001 has no label, skipping.
+Warning: New York/360810331000 has no label, skipping.
+Warning: New York/360810331001 has no label, skipping.
+Warning: New York/360810383011 has no label, skipping.
+Warning: New York/360810383020 has no label, skipping.
+Warning: New York/360810383021 has no label, skipping.
+Warning: New York/360810561001 has no label, skipping.
+Warning: New York/360810607011 has no label, skipping.
+Warning: New York/360810641021 has no label, skipping.
+Warning: New York/360810655011 has no label, skipping.
+Warning: New York/360810664011 has no label, skipping.
+Warning: New York/360810664041 has no label, skipping.
+Warning: New York/360810716001 has no label, skipping.
+Warning: New York/360810793001 has no label, skipping.
+Warning: New York/360810884000 has no label, skipping.
+Warning: New York/360810892021 has no label, skipping.
+Warning: New York/360810916020 has no label, skipping.
+Warning: New York/360810916021 has no label, skipping.
+Warning: New York/360810916030 has no label, skipping.
+Warning: New York/360810916034 has no label, skipping.
+Warning: New York/360810916040 has no label, skipping.
+Warning: New York/360810916041 has no label, skipping.
+Warning: New York/360810918000 has no label, skipping.
+Warning: New York/360810918001 has no label, skipping.
+Warning: New York/360810922000 has no label, skipping.
+Warning: New York/360810928000 has no label, skipping.
+Warning: New York/360810929000 has no label, skipping.
+Warning: New York/360810934010 has no label, skipping.
+Warning: New York/360810938000 has no label, skipping.
+Warning: New York/360810939000 has no label, skipping.
+Warning: New York/360810942030 has no label, skipping.
+Warning: New York/360810945000 has no label, skipping.
+Warning: New York/360810954000 has no label, skipping.
+Warning: New York/360810972020 has no label, skipping.
+Warning: New York/360810972070 has no label, skipping.
+Warning: New York/360810972071 has no label, skipping.
+Warning: New York/360810981000 has no label, skipping.
+Warning: New York/360810987000 has no label, skipping.
+Warning: New York/360810997050 has no label, skipping.
+Warning: New York/360810998020 has no label, skipping.
+Warning: New York/360810999001 has no label, skipping.
+Warning: New York/360811072020 has no label, skipping.
+Warning: New York/360811072021 has no label, skipping.
+Warning: New York/360811093002 has no label, skipping.
+Warning: New York/360811211001 has no label, skipping.
+Warning: New York/360811283001 has no label, skipping.
+Warning: New York/360811385021 has no label, skipping.
+Warning: New York/360811483000 has no label, skipping.
+Warning: New York/360819901000 has no label, skipping.
+Warning: New York/360850003000 has no label, skipping.
+Warning: New York/360850006000 has no label, skipping.
+Warning: New York/360850007000 has no label, skipping.
+Warning: New York/360850018000 has no label, skipping.
+Warning: New York/360850021000 has no label, skipping.
+Warning: New York/360850059012 has no label, skipping.
+Warning: New York/360850067001 has no label, skipping.
+Warning: New York/360850070020 has no label, skipping.
+Warning: New York/360850070023 has no label, skipping.
+Warning: New York/360850112010 has no label, skipping.
+Warning: New York/360850112040 has no label, skipping.
+Warning: New York/360850112041 has no label, skipping.
+Warning: New York/360850128060 has no label, skipping.
+Warning: New York/360850128065 has no label, skipping.
+Warning: New York/360850154000 has no label, skipping.
+Warning: New York/360850154001 has no label, skipping.
+Warning: New York/360850156030 has no label, skipping.
+Warning: New York/360850176000 has no label, skipping.
+Warning: New York/360850177012 has no label, skipping.
+Warning: New York/360850177013 has no label, skipping.
+Warning: New York/360850177014 has no label, skipping.
+Warning: New York/360850198000 has no label, skipping.
+Warning: New York/360850198003 has no label, skipping.
+Warning: New York/360850208062 has no label, skipping.
+Warning: New York/360850223000 has no label, skipping.
+Warning: New York/360850226014 has no label, skipping.
+Warning: New York/360850226020 has no label, skipping.
+Warning: New York/360850226021 has no label, skipping.
+Warning: New York/360850226022 has no label, skipping.
+Warning: New York/360850226023 has no label, skipping.
+Warning: New York/360850228010 has no label, skipping.
+Warning: New York/360850228011 has no label, skipping.
+Warning: New York/360850228012 has no label, skipping.
+Warning: New York/360850228021 has no label, skipping.
+Warning: New York/360850244020 has no label, skipping.
+Warning: New York/360850248000 has no label, skipping.
+Warning: New York/360850273012 has no label, skipping.
+Warning: New York/360850273014 has no label, skipping.
+Warning: New York/360850279003 has no label, skipping.
+Warning: New York/360850279004 has no label, skipping.
+Warning: New York/360850291020 has no label, skipping.
+Warning: New York/360850291042 has no label, skipping.
+Warning: New York/360850291051 has no label, skipping.
+Warning: New York/360859901000 has no label, skipping.
+Warning: Philadelphia/421010013024 has no label, skipping.
+Warning: Philadelphia/421010033004 has no label, skipping.
+Warning: Philadelphia/421010038004 has no label, skipping.
+Warning: Philadelphia/421010038005 has no label, skipping.
+Warning: Philadelphia/421010067001 has no label, skipping.
+Warning: Philadelphia/421010117001 has no label, skipping.
+Warning: Philadelphia/421010122041 has no label, skipping.
+Warning: Philadelphia/421010125022 has no label, skipping.
+Warning: Philadelphia/421010142023 has no label, skipping.
+Warning: Philadelphia/421010170002 has no label, skipping.
+Warning: Philadelphia/421010173003 has no label, skipping.
+Warning: Philadelphia/421010205001 has no label, skipping.
+Warning: Philadelphia/421010205002 has no label, skipping.
+Warning: Philadelphia/421010207021 has no label, skipping.
+Warning: Philadelphia/421010207022 has no label, skipping.
+Warning: Philadelphia/421010245002 has no label, skipping.
+Warning: Philadelphia/421010291001 has no label, skipping.
+Warning: Philadelphia/421010293001 has no label, skipping.
+Warning: Philadelphia/421010317005 has no label, skipping.
+Warning: Philadelphia/421010346002 has no label, skipping.
+Warning: Philadelphia/421010351003 has no label, skipping.
+Warning: Philadelphia/421010352001 has no label, skipping.
+Warning: Philadelphia/421010356013 has no label, skipping.
+Warning: Philadelphia/421010359001 has no label, skipping.
+Warning: Philadelphia/421010360002 has no label, skipping.
+Warning: Philadelphia/421010360003 has no label, skipping.
+Warning: Philadelphia/421010366003 has no label, skipping.
+Warning: Philadelphia/421010369012 has no label, skipping.
+Warning: Philadelphia/421010369014 has no label, skipping.
+Warning: Philadelphia/421010373004 has no label, skipping.
+Warning: Philadelphia/421010378001 has no label, skipping.
+Warning: Philadelphia/421010378003 has no label, skipping.
+Warning: Philadelphia/421010378004 has no label, skipping.
+Warning: Philadelphia/421010378007 has no label, skipping.
+Warning: Philadelphia/421010383011 has no label, skipping.
+Warning: Philadelphia/421010390011 has no label, skipping.
+Warning: Philadelphia/421010390021 has no label, skipping.
+Warning: Philadelphia/421010391001 has no label, skipping.
+Warning: Philadelphia/421010391002 has no label, skipping.
+Warning: Philadelphia/421019800011 has no label, skipping.
+Warning: Philadelphia/421019800012 has no label, skipping.
+Warning: Philadelphia/421019800021 has no label, skipping.
+Warning: Philadelphia/421019800022 has no label, skipping.
+Warning: Philadelphia/421019800031 has no label, skipping.
+Warning: Philadelphia/421019802001 has no label, skipping.
+Warning: Philadelphia/421019803001 has no label, skipping.
+Warning: Philadelphia/421019803002 has no label, skipping.
+Warning: Philadelphia/421019803003 has no label, skipping.
+Warning: Philadelphia/421019804001 has no label, skipping.
+Warning: Philadelphia/421019805001 has no label, skipping.
+Warning: Philadelphia/421019806001 has no label, skipping.
+Warning: Philadelphia/421019807011 has no label, skipping.
+Warning: Philadelphia/421019807012 has no label, skipping.
+Warning: Philadelphia/421019807013 has no label, skipping.
+Warning: Philadelphia/421019807014 has no label, skipping.
+Warning: Philadelphia/421019807021 has no label, skipping.
+Warning: Philadelphia/421019808001 has no label, skipping.
+Warning: Philadelphia/421019809011 has no label, skipping.
+Warning: Philadelphia/421019809012 has no label, skipping.
+Warning: Philadelphia/421019809013 has no label, skipping.
+Warning: Philadelphia/421019809014 has no label, skipping.
+Warning: Philadelphia/421019809015 has no label, skipping.
+Warning: Philadelphia/421019809016 has no label, skipping.
+Warning: Philadelphia/421019809017 has no label, skipping.
+Warning: Philadelphia/421019809018 has no label, skipping.
+Warning: Philadelphia/421019809041 has no label, skipping.
+Warning: Philadelphia/421019809051 has no label, skipping.
+Warning: Philadelphia/421019809061 has no label, skipping.
+Warning: Philadelphia/421019891002 has no label, skipping.
+Warning: Philadelphia/421019891003 has no label, skipping.
+Warning: Philadelphia/421019891004 has no label, skipping.
+Warning: Philadelphia/421019892002 has no label, skipping.
+Warning: Philadelphia/421019892003 has no label, skipping.
+Warning: Philadelphia/421019892004 has no label, skipping.
+Warning: Philadelphia/421019892005 has no label, skipping.
+Warning: Philadelphia/421019892006 has no label, skipping.
+Warning: Philadelphia/421019892007 has no label, skipping.
+Warning: Philadelphia/421019893001 has no label, skipping.
+Warning: Philadelphia/421019893002 has no label, skipping.
+Warning: Phoenix/40130820022 has no label, skipping.
+Warning: Phoenix/40130820161 has no label, skipping.
+Warning: Phoenix/40130820162 has no label, skipping.
+Warning: Phoenix/40130820173 has no label, skipping.
+Warning: Phoenix/40130822063 has no label, skipping.
+Warning: Phoenix/40131044022 has no label, skipping.
+Warning: Phoenix/40131072011 has no label, skipping.
+Warning: Phoenix/40131079001 has no label, skipping.
+Warning: Phoenix/40131093001 has no label, skipping.
+Warning: Phoenix/40131125122 has no label, skipping.
+Warning: Phoenix/40131125161 has no label, skipping.
+Warning: Phoenix/40131125172 has no label, skipping.
+Warning: Phoenix/40131125182 has no label, skipping.
+Warning: Phoenix/40131125231 has no label, skipping.
+Warning: Phoenix/40131125243 has no label, skipping.
+Warning: Phoenix/40131133011 has no label, skipping.
+Warning: Phoenix/40131137022 has no label, skipping.
+Warning: Phoenix/40131138001 has no label, skipping.
+Warning: Phoenix/40131138002 has no label, skipping.
+Warning: Phoenix/40131138003 has no label, skipping.
+Warning: Phoenix/40131138004 has no label, skipping.
+Warning: Phoenix/40131138005 has no label, skipping.
+Warning: Phoenix/40131138006 has no label, skipping.
+Warning: Phoenix/40131138007 has no label, skipping.
+Warning: Phoenix/40131139002 has no label, skipping.
+Warning: Phoenix/40131140002 has no label, skipping.
+Warning: Phoenix/40131147041 has no label, skipping.
+Warning: Phoenix/40131147051 has no label, skipping.
+Warning: Phoenix/40131148003 has no label, skipping.
+Warning: Phoenix/40131149003 has no label, skipping.
+Warning: Phoenix/40131152001 has no label, skipping.
+Warning: Phoenix/40131156002 has no label, skipping.
+Warning: Phoenix/40131160004 has no label, skipping.
+Warning: Phoenix/40131165003 has no label, skipping.
+Warning: Phoenix/40131166072 has no label, skipping.
+Warning: Phoenix/40131166103 has no label, skipping.
+Warning: Phoenix/40131166141 has no label, skipping.
+Warning: Phoenix/40131166161 has no label, skipping.
+Warning: Phoenix/40131166162 has no label, skipping.
+Warning: Phoenix/40131166171 has no label, skipping.
+Warning: Phoenix/40131166172 has no label, skipping.
+Warning: Phoenix/40131166191 has no label, skipping.
+Warning: Phoenix/40131166192 has no label, skipping.
+Warning: Phoenix/40131166201 has no label, skipping.
+Warning: Phoenix/40131166205 has no label, skipping.
+Warning: Phoenix/40131166212 has no label, skipping.
+Warning: Phoenix/40131167273 has no label, skipping.
+Warning: Phoenix/40131167323 has no label, skipping.
+Warning: Phoenix/40131167331 has no label, skipping.
+Warning: Phoenix/40131167341 has no label, skipping.
+Warning: Phoenix/40131167352 has no label, skipping.
+Warning: Phoenix/40131167371 has no label, skipping.
+Warning: Phoenix/40131167372 has no label, skipping.
+Warning: Phoenix/40131167381 has no label, skipping.
+Warning: Phoenix/40131167383 has no label, skipping.
+Warning: Phoenix/40131172002 has no label, skipping.
+Warning: Phoenix/40131172003 has no label, skipping.
+Warning: Phoenix/40136100021 has no label, skipping.
+Warning: Phoenix/40136100022 has no label, skipping.
+Warning: Phoenix/40136100023 has no label, skipping.
+Warning: Phoenix/40136100024 has no label, skipping.
+Warning: Phoenix/40136108002 has no label, skipping.
+Warning: Phoenix/40136113001 has no label, skipping.
+Warning: Phoenix/40136113002 has no label, skipping.
+Warning: Phoenix/40136113004 has no label, skipping.
+Warning: Phoenix/40136113005 has no label, skipping.
+Warning: Phoenix/40136113006 has no label, skipping.
+Warning: Phoenix/40136115004 has no label, skipping.
+Warning: Phoenix/40136120002 has no label, skipping.
+Warning: Phoenix/40136120003 has no label, skipping.
+Warning: Phoenix/40136122002 has no label, skipping.
+Warning: Phoenix/40136123011 has no label, skipping.
+Warning: Phoenix/40136123012 has no label, skipping.
+Warning: Phoenix/40136123021 has no label, skipping.
+Warning: Phoenix/40136123022 has no label, skipping.
+Warning: Phoenix/40136124021 has no label, skipping.
+Warning: Phoenix/40136124022 has no label, skipping.
+Warning: Phoenix/40136130003 has no label, skipping.
+Warning: Phoenix/40136146022 has no label, skipping.
+Warning: Phoenix/40136150021 has no label, skipping.
+Warning: Phoenix/40136152011 has no label, skipping.
+Warning: Phoenix/40136152012 has no label, skipping.
+Warning: San Antonio/480291205042 has no label, skipping.
+Warning: San Antonio/480291207024 has no label, skipping.
+Warning: San Antonio/480291211113 has no label, skipping.
+Warning: San Antonio/480291211233 has no label, skipping.
+Warning: San Antonio/480291214023 has no label, skipping.
+Warning: San Antonio/480291218024 has no label, skipping.
+Warning: San Antonio/480291219053 has no label, skipping.
+Warning: San Antonio/480291219112 has no label, skipping.
+Warning: San Antonio/480291219121 has no label, skipping.
+Warning: San Antonio/480291314014 has no label, skipping.
+Warning: San Antonio/480291413003 has no label, skipping.
+Warning: San Antonio/480291417003 has no label, skipping.
+Warning: San Antonio/480291519003 has no label, skipping.
+Warning: San Antonio/480291522015 has no label, skipping.
+Warning: San Antonio/480291615013 has no label, skipping.
+Warning: San Antonio/480291719203 has no label, skipping.
+Warning: San Antonio/480291719261 has no label, skipping.
+Warning: San Antonio/480291720081 has no label, skipping.
+Warning: San Antonio/480291720092 has no label, skipping.
+Warning: San Antonio/480291817042 has no label, skipping.
+Warning: San Antonio/480291818113 has no label, skipping.
+Warning: San Antonio/480291818194 has no label, skipping.
+Warning: San Antonio/480291818201 has no label, skipping.
+Warning: San Antonio/480291818202 has no label, skipping.
+Warning: San Antonio/480291818203 has no label, skipping.
+Warning: San Antonio/480291818243 has no label, skipping.
+Warning: San Antonio/480291819023 has no label, skipping.
+Warning: San Antonio/480291820024 has no label, skipping.
+Warning: San Antonio/480291914135 has no label, skipping.
+Warning: San Antonio/480291918064 has no label, skipping.
+Warning: San Antonio/480291918065 has no label, skipping.
+Warning: San Antonio/480291918073 has no label, skipping.
+Warning: San Antonio/480291918093 has no label, skipping.
+Warning: San Antonio/480291918112 has no label, skipping.
+Warning: San Antonio/480291918133 has no label, skipping.
+Warning: San Antonio/480291918181 has no label, skipping.
+Warning: San Antonio/480291918182 has no label, skipping.
+Warning: San Antonio/480291918191 has no label, skipping.
+Warning: San Antonio/480291918192 has no label, skipping.
+Warning: San Antonio/480291918193 has no label, skipping.
+Warning: San Antonio/480291918194 has no label, skipping.
+Warning: San Antonio/480299800021 has no label, skipping.
+Warning: San Antonio/480299800041 has no label, skipping.
+Warning: San Antonio/480299800051 has no label, skipping.
+Warning: San Diego/60730030034 has no label, skipping.
+Warning: San Diego/60730038001 has no label, skipping.
+Warning: San Diego/60730072003 has no label, skipping.
+Warning: San Diego/60730076011 has no label, skipping.
+Warning: San Diego/60730076012 has no label, skipping.
+Warning: San Diego/60730081013 has no label, skipping.
+Warning: San Diego/60730082012 has no label, skipping.
+Warning: San Diego/60730083051 has no label, skipping.
+Warning: San Diego/60730083245 has no label, skipping.
+Warning: San Diego/60730083282 has no label, skipping.
+Warning: San Diego/60730083463 has no label, skipping.
+Warning: San Diego/60730083475 has no label, skipping.
+Warning: San Diego/60730083662 has no label, skipping.
+Warning: San Diego/60730083663 has no label, skipping.
+Warning: San Diego/60730083672 has no label, skipping.
+Warning: San Diego/60730083683 has no label, skipping.
+Warning: San Diego/60730083684 has no label, skipping.
+Warning: San Diego/60730083692 has no label, skipping.
+Warning: San Diego/60730083701 has no label, skipping.
+Warning: San Diego/60730083711 has no label, skipping.
+Warning: San Diego/60730083712 has no label, skipping.
+Warning: San Diego/60730083721 has no label, skipping.
+Warning: San Diego/60730083722 has no label, skipping.
+Warning: San Diego/60730083731 has no label, skipping.
+Warning: San Diego/60730083732 has no label, skipping.
+Warning: San Diego/60730083741 has no label, skipping.
+Warning: San Diego/60730083742 has no label, skipping.
+Warning: San Diego/60730083752 has no label, skipping.
+Warning: San Diego/60730083762 has no label, skipping.
+Warning: San Diego/60730083801 has no label, skipping.
+Warning: San Diego/60730083802 has no label, skipping.
+Warning: San Diego/60730095042 has no label, skipping.
+Warning: San Diego/60730095043 has no label, skipping.
+Warning: San Diego/60730095044 has no label, skipping.
+Warning: San Diego/60730099011 has no label, skipping.
+Warning: San Diego/60730099021 has no label, skipping.
+Warning: San Diego/60730100093 has no label, skipping.
+Warning: San Diego/60730100152 has no label, skipping.
+Warning: San Diego/60730100161 has no label, skipping.
+Warning: San Diego/60730100171 has no label, skipping.
+Warning: San Diego/60730100172 has no label, skipping.
+Warning: San Diego/60730100181 has no label, skipping.
+Warning: San Diego/60730100182 has no label, skipping.
+Warning: San Diego/60730100183 has no label, skipping.
+Warning: San Diego/60730100191 has no label, skipping.
+Warning: San Diego/60730100192 has no label, skipping.
+Warning: San Diego/60730110001 has no label, skipping.
+Warning: San Diego/60730111001 has no label, skipping.
+Warning: San Diego/60730170393 has no label, skipping.
+Warning: San Diego/60730170394 has no label, skipping.
+Warning: San Diego/60730170395 has no label, skipping.
+Warning: San Diego/60730170433 has no label, skipping.
+Warning: San Diego/60730170443 has no label, skipping.
+Warning: San Diego/60730170444 has no label, skipping.
+Warning: San Diego/60730170524 has no label, skipping.
+Warning: San Diego/60730170571 has no label, skipping.
+Warning: San Diego/60730170572 has no label, skipping.
+Warning: San Diego/60730170573 has no label, skipping.
+Warning: San Diego/60730170582 has no label, skipping.
+Warning: San Diego/60730170583 has no label, skipping.
+Warning: San Diego/60730170591 has no label, skipping.
+Warning: San Diego/60730170592 has no label, skipping.
+Warning: San Diego/60730170601 has no label, skipping.
+Warning: San Diego/60730170602 has no label, skipping.
+Warning: San Diego/60730170611 has no label, skipping.
+Warning: San Diego/60730170612 has no label, skipping.
+Warning: San Diego/60730170621 has no label, skipping.
+Warning: San Diego/60730170622 has no label, skipping.
+Warning: San Diego/60730170631 has no label, skipping.
+Warning: San Diego/60730170632 has no label, skipping.
+Warning: San Diego/60730170633 has no label, skipping.
+Warning: San Diego/60730170651 has no label, skipping.
+Warning: San Diego/60730170652 has no label, skipping.
+Warning: San Diego/60730170661 has no label, skipping.
+Warning: San Diego/60730170662 has no label, skipping.
+Warning: San Diego/60730170671 has no label, skipping.
+Warning: San Diego/60730170672 has no label, skipping.
+Warning: San Diego/60730170682 has no label, skipping.
+Warning: San Diego/60730170691 has no label, skipping.
+Warning: San Diego/60730170711 has no label, skipping.
+Warning: San Diego/60730207111 has no label, skipping.
+Warning: San Diego/60730215011 has no label, skipping.
+Warning: San Diego/60730215012 has no label, skipping.
+Warning: San Diego/60730215013 has no label, skipping.
+Warning: San Diego/60730215021 has no label, skipping.
+Warning: San Diego/60730215022 has no label, skipping.
+Warning: San Diego/60730215023 has no label, skipping.
+Warning: San Diego/60739901000 has no label, skipping.
+Loaded 1069 tracts from /home/saddy_umass_edu/cs682-final-project/satellite_imagery_collection/data_dir/train
+Warning: Chicago/170310104003 has no label, skipping.
+Warning: Chicago/170311003001 has no label, skipping.
+Warning: Chicago/170312521011 has no label, skipping.
+Warning: Chicago/170312925003 has no label, skipping.
+Warning: Chicago/170313301011 has no label, skipping.
+Warning: Chicago/170314805003 has no label, skipping.
+Warning: Chicago/170315101002 has no label, skipping.
+Warning: Chicago/170315103002 has no label, skipping.
+Warning: Chicago/170315304001 has no label, skipping.
+Warning: Chicago/170315305011 has no label, skipping.
+Warning: Chicago/170315305033 has no label, skipping.
+Warning: Chicago/170315501001 has no label, skipping.
+Warning: Chicago/170315501005 has no label, skipping.
+Warning: Chicago/170315702001 has no label, skipping.
+Warning: Chicago/170316103001 has no label, skipping.
+Warning: Chicago/170316119002 has no label, skipping.
+Warning: Chicago/170316122003 has no label, skipping.
+Warning: Chicago/170316306001 has no label, skipping.
+Warning: Chicago/170316306002 has no label, skipping.
+Warning: Chicago/170316609003 has no label, skipping.
+Warning: Chicago/170317001002 has no label, skipping.
+Warning: Chicago/170317307002 has no label, skipping.
+Warning: Chicago/170317402001 has no label, skipping.
+Warning: Chicago/170318305001 has no label, skipping.
+Warning: Chicago/170318311001 has no label, skipping.
+Warning: Chicago/170318361002 has no label, skipping.
+Warning: Chicago/170318382002 has no label, skipping.
+Warning: Chicago/170318413004 has no label, skipping.
+Warning: Chicago/170318438001 has no label, skipping.
+Warning: Chicago/170318439001 has no label, skipping.
+Warning: Chicago/170318446001 has no label, skipping.
+Warning: Chicago/170319800001 has no label, skipping.
+Warning: Houston/481576730062 has no label, skipping.
+Warning: Houston/481576730071 has no label, skipping.
+Warning: Houston/481576731073 has no label, skipping.
+Warning: Houston/481576734031 has no label, skipping.
+Warning: Houston/482011000011 has no label, skipping.
+Warning: Houston/482012114003 has no label, skipping.
+Warning: Houston/482012115011 has no label, skipping.
+Warning: Houston/482012115021 has no label, skipping.
+Warning: Houston/482012117002 has no label, skipping.
+Warning: Houston/482012123003 has no label, skipping.
+Warning: Houston/482012216022 has no label, skipping.
+Warning: Houston/482012227022 has no label, skipping.
+Warning: Houston/482012305003 has no label, skipping.
+Warning: Houston/482012311001 has no label, skipping.
+Warning: Houston/482012312004 has no label, skipping.
+Warning: Houston/482012319002 has no label, skipping.
+Warning: Houston/482012322012 has no label, skipping.
+Warning: Houston/482012324052 has no label, skipping.
+Warning: Houston/482012325002 has no label, skipping.
+Warning: Houston/482012333001 has no label, skipping.
+Warning: Houston/482012401022 has no label, skipping.
+Warning: Houston/482012404003 has no label, skipping.
+Warning: Houston/482012404004 has no label, skipping.
+Warning: Houston/482012407063 has no label, skipping.
+Warning: Houston/482012409032 has no label, skipping.
+Warning: Houston/482012413022 has no label, skipping.
+Warning: Houston/482012415011 has no label, skipping.
+Warning: Houston/482012415013 has no label, skipping.
+Warning: Houston/482012415031 has no label, skipping.
+Warning: Houston/482012415032 has no label, skipping.
+Warning: Houston/482012501013 has no label, skipping.
+Warning: Houston/482012504033 has no label, skipping.
+Warning: Houston/482012506021 has no label, skipping.
+Warning: Houston/482012508012 has no label, skipping.
+Warning: Houston/482012508022 has no label, skipping.
+Warning: Houston/482012509011 has no label, skipping.
+Warning: Houston/482012509012 has no label, skipping.
+Warning: Houston/482012509022 has no label, skipping.
+Warning: Houston/482012509023 has no label, skipping.
+Warning: Houston/482012509024 has no label, skipping.
+Warning: Houston/482012510003 has no label, skipping.
+Warning: Houston/482012515012 has no label, skipping.
+Warning: Houston/482012517011 has no label, skipping.
+Warning: Houston/482012517012 has no label, skipping.
+Warning: Houston/482012517013 has no label, skipping.
+Warning: Houston/482012517022 has no label, skipping.
+Warning: Houston/482012519033 has no label, skipping.
+Warning: Houston/482012519042 has no label, skipping.
+Warning: Houston/482012520011 has no label, skipping.
+Warning: Houston/482012520012 has no label, skipping.
+Warning: Houston/482012520031 has no label, skipping.
+Warning: Houston/482012520032 has no label, skipping.
+Warning: Houston/482012520033 has no label, skipping.
+Warning: Houston/482013131021 has no label, skipping.
+Warning: Houston/482013132011 has no label, skipping.
+Warning: Houston/482013144022 has no label, skipping.
+Warning: Houston/482013202012 has no label, skipping.
+Warning: Houston/482013240003 has no label, skipping.
+Warning: Houston/482013241021 has no label, skipping.
+Warning: Houston/482013242002 has no label, skipping.
+Warning: Houston/482013303013 has no label, skipping.
+Warning: Houston/482013308011 has no label, skipping.
+Warning: Houston/482013308012 has no label, skipping.
+Warning: Houston/482013308022 has no label, skipping.
+Warning: Houston/482013309011 has no label, skipping.
+Warning: Houston/482013309013 has no label, skipping.
+Warning: Houston/482013309021 has no label, skipping.
+Warning: Houston/482013312003 has no label, skipping.
+Warning: Houston/482013313001 has no label, skipping.
+Warning: Houston/482013315022 has no label, skipping.
+Warning: Houston/482013332031 has no label, skipping.
+Warning: Houston/482013333021 has no label, skipping.
+Warning: Houston/482013333022 has no label, skipping.
+Warning: Houston/482013336001 has no label, skipping.
+Warning: Houston/482013338013 has no label, skipping.
+Warning: Houston/482013339052 has no label, skipping.
+Warning: Houston/482013341012 has no label, skipping.
+Warning: Houston/482013341013 has no label, skipping.
+Warning: Houston/482013341022 has no label, skipping.
+Warning: Houston/482013401011 has no label, skipping.
+Warning: Houston/482013401021 has no label, skipping.
+Warning: Houston/482013401022 has no label, skipping.
+Warning: Houston/482013402011 has no label, skipping.
+Warning: Houston/482013402023 has no label, skipping.
+Warning: Houston/482013409004 has no label, skipping.
+Warning: Houston/482013410022 has no label, skipping.
+Warning: Houston/482013413041 has no label, skipping.
+Warning: Houston/482013436011 has no label, skipping.
+Warning: Houston/482013501042 has no label, skipping.
+Warning: Houston/482013508033 has no label, skipping.
+Warning: Houston/482014301021 has no label, skipping.
+Warning: Houston/482014310011 has no label, skipping.
+Warning: Houston/482014401011 has no label, skipping.
+Warning: Houston/482014518004 has no label, skipping.
+Warning: Houston/482014521012 has no label, skipping.
+Warning: Houston/482014525012 has no label, skipping.
+Warning: Houston/482014545041 has no label, skipping.
+Warning: Houston/482014545051 has no label, skipping.
+Warning: Houston/482015108021 has no label, skipping.
+Warning: Houston/482015109022 has no label, skipping.
+Warning: Houston/482015205011 has no label, skipping.
+Warning: Houston/482015334021 has no label, skipping.
+Warning: Houston/482015341011 has no label, skipping.
+Warning: Houston/482015341012 has no label, skipping.
+Warning: Houston/482015401013 has no label, skipping.
+Warning: Houston/482015401021 has no label, skipping.
+Warning: Houston/482015417013 has no label, skipping.
+Warning: Houston/482015417022 has no label, skipping.
+Warning: Houston/482015417033 has no label, skipping.
+Warning: Houston/482015418022 has no label, skipping.
+Warning: Houston/482015419011 has no label, skipping.
+Warning: Houston/482015423051 has no label, skipping.
+Warning: Houston/482015425002 has no label, skipping.
+Warning: Houston/482015429013 has no label, skipping.
+Warning: Houston/482015429023 has no label, skipping.
+Warning: Houston/482015430072 has no label, skipping.
+Warning: Houston/482015430073 has no label, skipping.
+Warning: Houston/482015432011 has no label, skipping.
+Warning: Houston/482015432022 has no label, skipping.
+Warning: Houston/482015502022 has no label, skipping.
+Warning: Houston/482015503072 has no label, skipping.
+Warning: Houston/482015515013 has no label, skipping.
+Warning: Houston/482015515021 has no label, skipping.
+Warning: Houston/482015534033 has no label, skipping.
+Warning: Houston/482015534052 has no label, skipping.
+Warning: Houston/482015542022 has no label, skipping.
+Warning: Houston/482015544051 has no label, skipping.
+Warning: Houston/482015544093 has no label, skipping.
+Warning: Houston/482015549052 has no label, skipping.
+Warning: Houston/482015550011 has no label, skipping.
+Warning: Houston/482015555033 has no label, skipping.
+Warning: Houston/482019800001 has no label, skipping.
+Warning: Houston/482019801001 has no label, skipping.
+Warning: Houston/483396914031 has no label, skipping.
+Warning: Houston/483396919002 has no label, skipping.
+Warning: Houston/483396923033 has no label, skipping.
+Warning: Houston/483396924021 has no label, skipping.
+Warning: New York/360050001000 has no label, skipping.
+Warning: New York/360050001001 has no label, skipping.
+Warning: New York/360050002000 has no label, skipping.
+Warning: New York/360050004000 has no label, skipping.
+Warning: New York/360050019032 has no label, skipping.
+Warning: New York/360050019040 has no label, skipping.
+Warning: New York/360050024001 has no label, skipping.
+Warning: New York/360050090000 has no label, skipping.
+Warning: New York/360050093020 has no label, skipping.
+Warning: New York/360050093021 has no label, skipping.
+Warning: New York/360050093022 has no label, skipping.
+Warning: New York/360050096002 has no label, skipping.
+Warning: New York/360050110001 has no label, skipping.
+Warning: New York/360050117021 has no label, skipping.
+Warning: New York/360050118000 has no label, skipping.
+Warning: New York/360050118001 has no label, skipping.
+Warning: New York/360050132000 has no label, skipping.
+Warning: New York/360050138000 has no label, skipping.
+Warning: New York/360050138001 has no label, skipping.
+Warning: New York/360050160000 has no label, skipping.
+Warning: New York/360050163001 has no label, skipping.
+Warning: New York/360050194001 has no label, skipping.
+Warning: New York/360050274020 has no label, skipping.
+Warning: New York/360050276000 has no label, skipping.
+Warning: New York/360050276001 has no label, skipping.
+Warning: New York/360050284001 has no label, skipping.
+Warning: New York/360050293010 has no label, skipping.
+Warning: New York/360050309000 has no label, skipping.
+Warning: New York/360050309001 has no label, skipping.
+Warning: New York/360050309002 has no label, skipping.
+Warning: New York/360050334001 has no label, skipping.
+Warning: New York/360050397001 has no label, skipping.
+Warning: New York/360050409001 has no label, skipping.
+Warning: New York/360050409002 has no label, skipping.
+Warning: New York/360050435021 has no label, skipping.
+Warning: New York/360050435031 has no label, skipping.
+Warning: New York/360050462033 has no label, skipping.
+Warning: New York/360050462055 has no label, skipping.
+Warning: New York/360050504000 has no label, skipping.
+Warning: New York/360050504001 has no label, skipping.
+Warning: New York/360050516010 has no label, skipping.
+Warning: New York/360050516020 has no label, skipping.
+Warning: New York/360470018021 has no label, skipping.
+Warning: New York/360470018031 has no label, skipping.
+Warning: New York/360470018040 has no label, skipping.
+Warning: New York/360470034000 has no label, skipping.
+Warning: New York/360470044000 has no label, skipping.
+Warning: New York/360470046000 has no label, skipping.
+Warning: New York/360470050000 has no label, skipping.
+Warning: New York/360470053010 has no label, skipping.
+Warning: New York/360470053020 has no label, skipping.
+Warning: New York/360470053022 has no label, skipping.
+Warning: New York/360470154001 has no label, skipping.
+Warning: New York/360470164000 has no label, skipping.
+Warning: New York/360470175001 has no label, skipping.
+Warning: New York/360470177001 has no label, skipping.
+Warning: New York/360470336000 has no label, skipping.
+Warning: New York/360470352000 has no label, skipping.
+Warning: New York/360470449022 has no label, skipping.
+Warning: New York/360470449023 has no label, skipping.
+Warning: New York/360470543001 has no label, skipping.
+Warning: New York/360470579021 has no label, skipping.
+Warning: New York/360470616000 has no label, skipping.
+Warning: New York/360470666000 has no label, skipping.
+Warning: New York/360470666001 has no label, skipping.
+Warning: New York/360470702020 has no label, skipping.
+Warning: New York/360470702021 has no label, skipping.
+Warning: New York/360470702030 has no label, skipping.
+Warning: New York/360470702031 has no label, skipping.
+Warning: New York/360470706020 has no label, skipping.
+Warning: New York/360470706021 has no label, skipping.
+Warning: New York/360471034021 has no label, skipping.
+Warning: New York/360471070011 has no label, skipping.
+Warning: New York/360471070020 has no label, skipping.
+Warning: New York/360471070021 has no label, skipping.
+Warning: New York/360471180001 has no label, skipping.
+Warning: New York/360479901000 has no label, skipping.
+Warning: New York/360610005000 has no label, skipping.
+Warning: New York/360610005001 has no label, skipping.
+Warning: New York/360610062000 has no label, skipping.
+Warning: New York/360610079000 has no label, skipping.
+Warning: New York/360610143001 has no label, skipping.
+Warning: New York/360610152000 has no label, skipping.
+Warning: New York/360610162000 has no label, skipping.
+Warning: New York/360610240000 has no label, skipping.
+Warning: New York/360610240001 has no label, skipping.
+Warning: New York/360610240002 has no label, skipping.
+Warning: New York/360610255000 has no label, skipping.
+Warning: New York/360610275000 has no label, skipping.
+Warning: New York/360610287000 has no label, skipping.
+Warning: New York/360610297001 has no label, skipping.
+Warning: New York/360610311001 has no label, skipping.
+Warning: New York/360610317030 has no label, skipping.
+Warning: New York/360810001041 has no label, skipping.
+Warning: New York/360810107010 has no label, skipping.
+Warning: New York/360810107011 has no label, skipping.
+Warning: New York/360810171011 has no label, skipping.
+Warning: New York/360810199021 has no label, skipping.
+Warning: New York/360810199031 has no label, skipping.
+Warning: New York/360810219001 has no label, skipping.
+Warning: New York/360810229001 has no label, skipping.
+Warning: New York/360810306001 has no label, skipping.
+Warning: New York/360810331000 has no label, skipping.
+Warning: New York/360810331001 has no label, skipping.
+Warning: New York/360810383011 has no label, skipping.
+Warning: New York/360810383020 has no label, skipping.
+Warning: New York/360810383021 has no label, skipping.
+Warning: New York/360810561001 has no label, skipping.
+Warning: New York/360810607011 has no label, skipping.
+Warning: New York/360810641021 has no label, skipping.
+Warning: New York/360810655011 has no label, skipping.
+Warning: New York/360810664011 has no label, skipping.
+Warning: New York/360810664041 has no label, skipping.
+Warning: New York/360810716001 has no label, skipping.
+Warning: New York/360810793001 has no label, skipping.
+Warning: New York/360810884000 has no label, skipping.
+Warning: New York/360810892021 has no label, skipping.
+Warning: New York/360810916020 has no label, skipping.
+Warning: New York/360810916021 has no label, skipping.
+Warning: New York/360810916030 has no label, skipping.
+Warning: New York/360810916034 has no label, skipping.
+Warning: New York/360810916040 has no label, skipping.
+Warning: New York/360810916041 has no label, skipping.
+Warning: New York/360810918000 has no label, skipping.
+Warning: New York/360810922000 has no label, skipping.
+Warning: New York/360810928000 has no label, skipping.
+Warning: New York/360810929000 has no label, skipping.
+Warning: New York/360810934010 has no label, skipping.
+Warning: New York/360810938000 has no label, skipping.
+Warning: New York/360810939000 has no label, skipping.
+Warning: New York/360810942030 has no label, skipping.
+Warning: New York/360810945000 has no label, skipping.
+Warning: New York/360810954000 has no label, skipping.
+Warning: New York/360810972020 has no label, skipping.
+Warning: New York/360810972070 has no label, skipping.
+Warning: New York/360810972071 has no label, skipping.
+Warning: New York/360810981000 has no label, skipping.
+Warning: New York/360810987000 has no label, skipping.
+Warning: New York/360810997050 has no label, skipping.
+Warning: New York/360810998020 has no label, skipping.
+Warning: New York/360810999001 has no label, skipping.
+Warning: New York/360811072020 has no label, skipping.
+Warning: New York/360811072021 has no label, skipping.
+Warning: New York/360811093002 has no label, skipping.
+Warning: New York/360811211001 has no label, skipping.
+Warning: New York/360811283001 has no label, skipping.
+Warning: New York/360811385021 has no label, skipping.
+Warning: New York/360811483000 has no label, skipping.
+Warning: New York/360819901000 has no label, skipping.
+Warning: New York/360850003000 has no label, skipping.
+Warning: New York/360850006000 has no label, skipping.
+Warning: New York/360850007000 has no label, skipping.
+Warning: New York/360850018000 has no label, skipping.
+Warning: New York/360850021000 has no label, skipping.
+Warning: New York/360850059012 has no label, skipping.
+Warning: New York/360850067001 has no label, skipping.
+Warning: New York/360850070020 has no label, skipping.
+Warning: New York/360850070023 has no label, skipping.
+Warning: New York/360850112010 has no label, skipping.
+Warning: New York/360850112040 has no label, skipping.
+Warning: New York/360850112041 has no label, skipping.
+Warning: New York/360850128060 has no label, skipping.
+Warning: New York/360850128065 has no label, skipping.
+Warning: New York/360850154000 has no label, skipping.
+Warning: New York/360850154001 has no label, skipping.
+Warning: New York/360850156030 has no label, skipping.
+Warning: New York/360850176000 has no label, skipping.
+Warning: New York/360850177012 has no label, skipping.
+Warning: New York/360850177013 has no label, skipping.
+Warning: New York/360850177014 has no label, skipping.
+Warning: New York/360850198000 has no label, skipping.
+Warning: New York/360850198003 has no label, skipping.
+Warning: New York/360850208062 has no label, skipping.
+Warning: New York/360850223000 has no label, skipping.
+Warning: New York/360850226014 has no label, skipping.
+Warning: New York/360850226020 has no label, skipping.
+Warning: New York/360850226021 has no label, skipping.
+Warning: New York/360850226022 has no label, skipping.
+Warning: New York/360850226023 has no label, skipping.
+Warning: New York/360850228010 has no label, skipping.
+Warning: New York/360850228011 has no label, skipping.
+Warning: New York/360850228012 has no label, skipping.
+Warning: New York/360850228021 has no label, skipping.
+Warning: New York/360850244020 has no label, skipping.
+Warning: New York/360850248000 has no label, skipping.
+Warning: New York/360850273012 has no label, skipping.
+Warning: New York/360850273014 has no label, skipping.
+Warning: New York/360850279003 has no label, skipping.
+Warning: New York/360850279004 has no label, skipping.
+Warning: New York/360850291020 has no label, skipping.
+Warning: New York/360850291042 has no label, skipping.
+Warning: New York/360850291051 has no label, skipping.
+Warning: New York/360859901000 has no label, skipping.
+Warning: Philadelphia/421010013024 has no label, skipping.
+Warning: Philadelphia/421010038004 has no label, skipping.
+Warning: Philadelphia/421010038005 has no label, skipping.
+Warning: Philadelphia/421010067001 has no label, skipping.
+Warning: Philadelphia/421010117001 has no label, skipping.
+Warning: Philadelphia/421010122041 has no label, skipping.
+Warning: Philadelphia/421010125022 has no label, skipping.
+Warning: Philadelphia/421010142023 has no label, skipping.
+Warning: Philadelphia/421010170002 has no label, skipping.
+Warning: Philadelphia/421010173003 has no label, skipping.
+Warning: Philadelphia/421010205001 has no label, skipping.
+Warning: Philadelphia/421010205002 has no label, skipping.
+Warning: Philadelphia/421010207021 has no label, skipping.
+Warning: Philadelphia/421010207022 has no label, skipping.
+Warning: Philadelphia/421010245002 has no label, skipping.
+Warning: Philadelphia/421010291001 has no label, skipping.
+Warning: Philadelphia/421010293001 has no label, skipping.
+Warning: Philadelphia/421010317005 has no label, skipping.
+Warning: Philadelphia/421010346002 has no label, skipping.
+Warning: Philadelphia/421010351003 has no label, skipping.
+Warning: Philadelphia/421010352001 has no label, skipping.
+Warning: Philadelphia/421010356013 has no label, skipping.
+Warning: Philadelphia/421010359001 has no label, skipping.
+Warning: Philadelphia/421010360002 has no label, skipping.
+Warning: Philadelphia/421010360003 has no label, skipping.
+Warning: Philadelphia/421010366003 has no label, skipping.
+Warning: Philadelphia/421010369012 has no label, skipping.
+Warning: Philadelphia/421010369014 has no label, skipping.
+Warning: Philadelphia/421010378001 has no label, skipping.
+Warning: Philadelphia/421010378003 has no label, skipping.
+Warning: Philadelphia/421010378004 has no label, skipping.
+Warning: Philadelphia/421010378007 has no label, skipping.
+Warning: Philadelphia/421010383011 has no label, skipping.
+Warning: Philadelphia/421010390011 has no label, skipping.
+Warning: Philadelphia/421010390021 has no label, skipping.
+Warning: Philadelphia/421010391001 has no label, skipping.
+Warning: Philadelphia/421010391002 has no label, skipping.
+Warning: Philadelphia/421019800011 has no label, skipping.
+Warning: Philadelphia/421019800012 has no label, skipping.
+Warning: Philadelphia/421019800021 has no label, skipping.
+Warning: Philadelphia/421019800022 has no label, skipping.
+Warning: Philadelphia/421019800031 has no label, skipping.
+Warning: Philadelphia/421019802001 has no label, skipping.
+Warning: Philadelphia/421019803001 has no label, skipping.
+Warning: Philadelphia/421019803002 has no label, skipping.
+Warning: Philadelphia/421019803003 has no label, skipping.
+Warning: Philadelphia/421019804001 has no label, skipping.
+Warning: Philadelphia/421019805001 has no label, skipping.
+Warning: Philadelphia/421019806001 has no label, skipping.
+Warning: Philadelphia/421019807011 has no label, skipping.
+Warning: Philadelphia/421019807012 has no label, skipping.
+Warning: Philadelphia/421019807013 has no label, skipping.
+Warning: Philadelphia/421019807014 has no label, skipping.
+Warning: Philadelphia/421019807021 has no label, skipping.
+Warning: Philadelphia/421019808001 has no label, skipping.
+Warning: Philadelphia/421019809011 has no label, skipping.
+Warning: Philadelphia/421019809012 has no label, skipping.
+Warning: Philadelphia/421019809013 has no label, skipping.
+Warning: Philadelphia/421019809014 has no label, skipping.
+Warning: Philadelphia/421019809015 has no label, skipping.
+Warning: Philadelphia/421019809016 has no label, skipping.
+Warning: Philadelphia/421019809017 has no label, skipping.
+Warning: Philadelphia/421019809018 has no label, skipping.
+Warning: Philadelphia/421019809041 has no label, skipping.
+Warning: Philadelphia/421019809051 has no label, skipping.
+Warning: Philadelphia/421019809061 has no label, skipping.
+Warning: Philadelphia/421019891002 has no label, skipping.
+Warning: Philadelphia/421019891003 has no label, skipping.
+Warning: Philadelphia/421019891004 has no label, skipping.
+Warning: Philadelphia/421019892002 has no label, skipping.
+Warning: Philadelphia/421019892003 has no label, skipping.
+Warning: Philadelphia/421019892004 has no label, skipping.
+Warning: Philadelphia/421019892005 has no label, skipping.
+Warning: Philadelphia/421019892006 has no label, skipping.
+Warning: Philadelphia/421019892007 has no label, skipping.
+Warning: Philadelphia/421019893001 has no label, skipping.
+Warning: Philadelphia/421019893002 has no label, skipping.
+Warning: Phoenix/40130820022 has no label, skipping.
+Warning: Phoenix/40130820161 has no label, skipping.
+Warning: Phoenix/40130820162 has no label, skipping.
+Warning: Phoenix/40130820173 has no label, skipping.
+Warning: Phoenix/40130822063 has no label, skipping.
+Warning: Phoenix/40131044022 has no label, skipping.
+Warning: Phoenix/40131072011 has no label, skipping.
+Warning: Phoenix/40131079001 has no label, skipping.
+Warning: Phoenix/40131093001 has no label, skipping.
+Warning: Phoenix/40131125122 has no label, skipping.
+Warning: Phoenix/40131125161 has no label, skipping.
+Warning: Phoenix/40131125172 has no label, skipping.
+Warning: Phoenix/40131125182 has no label, skipping.
+Warning: Phoenix/40131125231 has no label, skipping.
+Warning: Phoenix/40131125243 has no label, skipping.
+Warning: Phoenix/40131133011 has no label, skipping.
+Warning: Phoenix/40131137022 has no label, skipping.
+Warning: Phoenix/40131138001 has no label, skipping.
+Warning: Phoenix/40131138002 has no label, skipping.
+Warning: Phoenix/40131138003 has no label, skipping.
+Warning: Phoenix/40131138004 has no label, skipping.
+Warning: Phoenix/40131138005 has no label, skipping.
+Warning: Phoenix/40131138006 has no label, skipping.
+Warning: Phoenix/40131138007 has no label, skipping.
+Warning: Phoenix/40131139002 has no label, skipping.
+Warning: Phoenix/40131140002 has no label, skipping.
+Warning: Phoenix/40131147041 has no label, skipping.
+Warning: Phoenix/40131147051 has no label, skipping.
+Warning: Phoenix/40131148003 has no label, skipping.
+Warning: Phoenix/40131149003 has no label, skipping.
+Warning: Phoenix/40131152001 has no label, skipping.
+Warning: Phoenix/40131156002 has no label, skipping.
+Warning: Phoenix/40131160004 has no label, skipping.
+Warning: Phoenix/40131165003 has no label, skipping.
+Warning: Phoenix/40131166072 has no label, skipping.
+Warning: Phoenix/40131166141 has no label, skipping.
+Warning: Phoenix/40131166161 has no label, skipping.
+Warning: Phoenix/40131166162 has no label, skipping.
+Warning: Phoenix/40131166171 has no label, skipping.
+Warning: Phoenix/40131166172 has no label, skipping.
+Warning: Phoenix/40131166191 has no label, skipping.
+Warning: Phoenix/40131166192 has no label, skipping.
+Warning: Phoenix/40131166201 has no label, skipping.
+Warning: Phoenix/40131166205 has no label, skipping.
+Warning: Phoenix/40131166212 has no label, skipping.
+Warning: Phoenix/40131167273 has no label, skipping.
+Warning: Phoenix/40131167323 has no label, skipping.
+Warning: Phoenix/40131167331 has no label, skipping.
+Warning: Phoenix/40131167341 has no label, skipping.
+Warning: Phoenix/40131167352 has no label, skipping.
+Warning: Phoenix/40131167371 has no label, skipping.
+Warning: Phoenix/40131167372 has no label, skipping.
+Warning: Phoenix/40131167381 has no label, skipping.
+Warning: Phoenix/40131167383 has no label, skipping.
+Warning: Phoenix/40131172002 has no label, skipping.
+Warning: Phoenix/40131172003 has no label, skipping.
+Warning: Phoenix/40136100021 has no label, skipping.
+Warning: Phoenix/40136100022 has no label, skipping.
+Warning: Phoenix/40136100023 has no label, skipping.
+Warning: Phoenix/40136100024 has no label, skipping.
+Warning: Phoenix/40136113001 has no label, skipping.
+Warning: Phoenix/40136113002 has no label, skipping.
+Warning: Phoenix/40136113004 has no label, skipping.
+Warning: Phoenix/40136113005 has no label, skipping.
+Warning: Phoenix/40136113006 has no label, skipping.
+Warning: Phoenix/40136115004 has no label, skipping.
+Warning: Phoenix/40136120003 has no label, skipping.
+Warning: Phoenix/40136122002 has no label, skipping.
+Warning: Phoenix/40136123011 has no label, skipping.
+Warning: Phoenix/40136123012 has no label, skipping.
+Warning: Phoenix/40136123021 has no label, skipping.
+Warning: Phoenix/40136123022 has no label, skipping.
+Warning: Phoenix/40136124021 has no label, skipping.
+Warning: Phoenix/40136124022 has no label, skipping.
+Warning: Phoenix/40136130003 has no label, skipping.
+Warning: Phoenix/40136146022 has no label, skipping.
+Warning: Phoenix/40136150021 has no label, skipping.
+Warning: Phoenix/40136152011 has no label, skipping.
+Warning: Phoenix/40136152012 has no label, skipping.
+Warning: San Antonio/480291205042 has no label, skipping.
+Warning: San Antonio/480291207024 has no label, skipping.
+Warning: San Antonio/480291211113 has no label, skipping.
+Warning: San Antonio/480291211233 has no label, skipping.
+Warning: San Antonio/480291214023 has no label, skipping.
+Warning: San Antonio/480291218024 has no label, skipping.
+Warning: San Antonio/480291219053 has no label, skipping.
+Warning: San Antonio/480291219112 has no label, skipping.
+Warning: San Antonio/480291219121 has no label, skipping.
+Warning: San Antonio/480291314014 has no label, skipping.
+Warning: San Antonio/480291413003 has no label, skipping.
+Warning: San Antonio/480291417003 has no label, skipping.
+Warning: San Antonio/480291519003 has no label, skipping.
+Warning: San Antonio/480291522015 has no label, skipping.
+Warning: San Antonio/480291611003 has no label, skipping.
+Warning: San Antonio/480291615013 has no label, skipping.
+Warning: San Antonio/480291719203 has no label, skipping.
+Warning: San Antonio/480291719261 has no label, skipping.
+Warning: San Antonio/480291720081 has no label, skipping.
+Warning: San Antonio/480291817042 has no label, skipping.
+Warning: San Antonio/480291817291 has no label, skipping.
+Warning: San Antonio/480291818113 has no label, skipping.
+Warning: San Antonio/480291818194 has no label, skipping.
+Warning: San Antonio/480291818201 has no label, skipping.
+Warning: San Antonio/480291818202 has no label, skipping.
+Warning: San Antonio/480291818203 has no label, skipping.
+Warning: San Antonio/480291818243 has no label, skipping.
+Warning: San Antonio/480291819023 has no label, skipping.
+Warning: San Antonio/480291820024 has no label, skipping.
+Warning: San Antonio/480291914135 has no label, skipping.
+Warning: San Antonio/480291918064 has no label, skipping.
+Warning: San Antonio/480291918065 has no label, skipping.
+Warning: San Antonio/480291918073 has no label, skipping.
+Warning: San Antonio/480291918093 has no label, skipping.
+Warning: San Antonio/480291918112 has no label, skipping.
+Warning: San Antonio/480291918181 has no label, skipping.
+Warning: San Antonio/480291918182 has no label, skipping.
+Warning: San Antonio/480291918191 has no label, skipping.
+Warning: San Antonio/480291918192 has no label, skipping.
+Warning: San Antonio/480291918193 has no label, skipping.
+Warning: San Antonio/480291918194 has no label, skipping.
+Warning: San Antonio/480299800021 has no label, skipping.
+Warning: San Antonio/480299800041 has no label, skipping.
+Warning: San Antonio/480299800051 has no label, skipping.
+Warning: San Diego/60730030034 has no label, skipping.
+Warning: San Diego/60730038001 has no label, skipping.
+Warning: San Diego/60730072003 has no label, skipping.
+Warning: San Diego/60730076011 has no label, skipping.
+Warning: San Diego/60730076012 has no label, skipping.
+Warning: San Diego/60730081013 has no label, skipping.
+Warning: San Diego/60730082012 has no label, skipping.
+Warning: San Diego/60730083051 has no label, skipping.
+Warning: San Diego/60730083245 has no label, skipping.
+Warning: San Diego/60730083282 has no label, skipping.
+Warning: San Diego/60730083463 has no label, skipping.
+Warning: San Diego/60730083475 has no label, skipping.
+Warning: San Diego/60730083662 has no label, skipping.
+Warning: San Diego/60730083663 has no label, skipping.
+Warning: San Diego/60730083672 has no label, skipping.
+Warning: San Diego/60730083683 has no label, skipping.
+Warning: San Diego/60730083684 has no label, skipping.
+Warning: San Diego/60730083692 has no label, skipping.
+Warning: San Diego/60730083701 has no label, skipping.
+Warning: San Diego/60730083711 has no label, skipping.
+Warning: San Diego/60730083712 has no label, skipping.
+Warning: San Diego/60730083721 has no label, skipping.
+Warning: San Diego/60730083722 has no label, skipping.
+Warning: San Diego/60730083731 has no label, skipping.
+Warning: San Diego/60730083732 has no label, skipping.
+Warning: San Diego/60730083741 has no label, skipping.
+Warning: San Diego/60730083742 has no label, skipping.
+Warning: San Diego/60730083752 has no label, skipping.
+Warning: San Diego/60730083762 has no label, skipping.
+Warning: San Diego/60730083801 has no label, skipping.
+Warning: San Diego/60730083802 has no label, skipping.
+Warning: San Diego/60730095042 has no label, skipping.
+Warning: San Diego/60730095043 has no label, skipping.
+Warning: San Diego/60730095044 has no label, skipping.
+Warning: San Diego/60730099011 has no label, skipping.
+Warning: San Diego/60730099021 has no label, skipping.
+Warning: San Diego/60730100093 has no label, skipping.
+Warning: San Diego/60730100152 has no label, skipping.
+Warning: San Diego/60730100161 has no label, skipping.
+Warning: San Diego/60730100171 has no label, skipping.
+Warning: San Diego/60730100172 has no label, skipping.
+Warning: San Diego/60730100182 has no label, skipping.
+Warning: San Diego/60730100183 has no label, skipping.
+Warning: San Diego/60730100191 has no label, skipping.
+Warning: San Diego/60730100192 has no label, skipping.
+Warning: San Diego/60730110001 has no label, skipping.
+Warning: San Diego/60730111001 has no label, skipping.
+Warning: San Diego/60730170393 has no label, skipping.
+Warning: San Diego/60730170394 has no label, skipping.
+Warning: San Diego/60730170395 has no label, skipping.
+Warning: San Diego/60730170433 has no label, skipping.
+Warning: San Diego/60730170443 has no label, skipping.
+Warning: San Diego/60730170444 has no label, skipping.
+Warning: San Diego/60730170524 has no label, skipping.
+Warning: San Diego/60730170571 has no label, skipping.
+Warning: San Diego/60730170572 has no label, skipping.
+Warning: San Diego/60730170573 has no label, skipping.
+Warning: San Diego/60730170582 has no label, skipping.
+Warning: San Diego/60730170583 has no label, skipping.
+Warning: San Diego/60730170591 has no label, skipping.
+Warning: San Diego/60730170592 has no label, skipping.
+Warning: San Diego/60730170601 has no label, skipping.
+Warning: San Diego/60730170602 has no label, skipping.
+Warning: San Diego/60730170611 has no label, skipping.
+Warning: San Diego/60730170612 has no label, skipping.
+Warning: San Diego/60730170621 has no label, skipping.
+Warning: San Diego/60730170622 has no label, skipping.
+Warning: San Diego/60730170631 has no label, skipping.
+Warning: San Diego/60730170632 has no label, skipping.
+Warning: San Diego/60730170651 has no label, skipping.
+Warning: San Diego/60730170652 has no label, skipping.
+Warning: San Diego/60730170661 has no label, skipping.
+Warning: San Diego/60730170662 has no label, skipping.
+Warning: San Diego/60730170671 has no label, skipping.
+Warning: San Diego/60730170672 has no label, skipping.
+Warning: San Diego/60730170682 has no label, skipping.
+Warning: San Diego/60730170691 has no label, skipping.
+Warning: San Diego/60730170711 has no label, skipping.
+Warning: San Diego/60730207111 has no label, skipping.
+Warning: San Diego/60730215011 has no label, skipping.
+Warning: San Diego/60730215012 has no label, skipping.
+Warning: San Diego/60730215013 has no label, skipping.
+Warning: San Diego/60730215021 has no label, skipping.
+Warning: San Diego/60730215022 has no label, skipping.
+Warning: San Diego/60730215023 has no label, skipping.
+Warning: San Diego/60739901000 has no label, skipping.
+Loaded 1050 tracts from /home/saddy_umass_edu/cs682-final-project/satellite_imagery_collection/data_dir/val
+Starting training...
+Epoch   1 | Train Loss: 3.760364 | Val MAE: 0.7213 | LR: 2.00e-06
+Epoch   2 | Train Loss: 3.800250 | Val MAE: 0.7189 | LR: 4.00e-06
+Epoch   3 | Train Loss: 3.603943 | Val MAE: 0.7158 | LR: 6.00e-06
+Epoch   4 | Train Loss: 3.291310 | Val MAE: 0.7119 | LR: 8.00e-06
+Epoch   5 | Train Loss: 3.705851 | Val MAE: 0.7063 | LR: 1.00e-05
+Epoch   6 | Train Loss: 3.579229 | Val MAE: 0.7009 | LR: 1.00e-05
+Epoch   7 | Train Loss: 3.367873 | Val MAE: 0.6964 | LR: 1.00e-05
+Epoch   8 | Train Loss: 3.261561 | Val MAE: 0.6908 | LR: 9.99e-06
+Epoch   9 | Train Loss: 3.226649 | Val MAE: 0.6860 | LR: 9.98e-06
+Epoch  10 | Train Loss: 3.170960 | Val MAE: 0.6815 | LR: 9.96e-06
+Epoch  11 | Train Loss: 3.394425 | Val MAE: 0.6775 | LR: 9.93e-06
+Epoch  12 | Train Loss: 3.311313 | Val MAE: 0.6734 | LR: 9.90e-06
+Epoch  13 | Train Loss: 3.230686 | Val MAE: 0.6683 | LR: 9.87e-06
+Epoch  14 | Train Loss: 3.136664 | Val MAE: 0.6638 | LR: 9.83e-06
+Epoch  15 | Train Loss: 3.242617 | Val MAE: 0.6579 | LR: 9.78e-06

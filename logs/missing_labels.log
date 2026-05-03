@@ -1,0 +1,34 @@
+
+==================================================
+Split: train
+==================================================
+  Chicago                250 tracts  |    33 missing  (13.2%)
+  Houston                239 tracts  |   140 missing  (58.6%)
+  New York               250 tracts  |   197 missing  (78.8%)
+  Philadelphia           250 tracts  |    79 missing  (31.6%)
+  Phoenix                250 tracts  |    82 missing  (32.8%)
+  San Antonio            243 tracts  |    44 missing  (18.1%)
+  San Diego              250 tracts  |    88 missing  (35.2%)
+  SPLIT TOTAL           1732 tracts  |   663 missing  (38.3%)
+
+==================================================
+Split: val
+==================================================
+  Chicago                243 tracts  |    32 missing  (13.2%)
+  Houston                234 tracts  |   137 missing  (58.5%)
+  New York               246 tracts  |   193 missing  (78.5%)
+  Philadelphia           247 tracts  |    77 missing  (31.2%)
+  Phoenix                243 tracts  |    79 missing  (32.5%)
+  San Antonio            240 tracts  |    44 missing  (18.3%)
+  San Diego              245 tracts  |    86 missing  (35.1%)
+  SPLIT TOTAL           1698 tracts  |   648 missing  (38.2%)
+
+==================================================
+Split: test
+==================================================
+  Los Angeles            250 tracts  |    66 missing  (26.4%)
+  SPLIT TOTAL            250 tracts  |    66 missing  (26.4%)
+
+==================================================
+GRAND TOTAL             3680 tracts  |  1377 missing  (37.4%)
+==================================================

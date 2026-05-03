@@ -1,0 +1,15 @@
+# Model checkpoints
+checkpoints/*.pth
+checkpoints/*.pth.tar
+checkpoints/models--*/
+
+# Dataset
+satellite_imagery_collection/data_dir/
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
