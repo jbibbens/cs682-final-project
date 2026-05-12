@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/saddy_umass_edu/cs682-final-project/eval_poverty.py", line 88, in <module>
+    main()
+  File "/home/saddy_umass_edu/cs682-final-project/eval_poverty.py", line 46, in main
+    backbone, feature_dim = load_satdino_backbone(args.satdino_checkpoint, device)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saddy_umass_edu/cs682-final-project/train_poverty.py", line 177, in load_satdino_backbone
+    missing, unexpected = model.load_state_dict(backbone_dict, strict=False)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saddy_umass_edu/cs682-final-project/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 2639, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for VisionTransformer:
+	size mismatch for pos_embed: copying a param with shape torch.Size([1, 198, 384]) from checkpoint, the shape in current model is torch.Size([1, 197, 384]).

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/saddy_umass_edu/cs682-final-project/qualitative_analysis.py", line 334, in <module>
+    main()
+  File "/home/saddy_umass_edu/cs682-final-project/qualitative_analysis.py", line 328, in main
+    gradcam(args, model, dataset, device, n_tiles=args.n_tracts)
+  File "/home/saddy_umass_edu/cs682-final-project/qualitative_analysis.py", line 235, in gradcam
+    grad = gradients["value"].squeeze(0)      # (C, H, W)
+           ~~~~~~~~~^^^^^^^^^
+KeyError: 'value'

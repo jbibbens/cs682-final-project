@@ -1,0 +1,30 @@
+10
+[2, 3]
+1  subtask_working
+tilefile_scd/Houston.csv
+Houston
+tilefile_scd/Jacksonville.csv
+Jacksonville
+[0, 1]
+0  subtask_working
+tilefile_scd/Chicago.csv
+Chicago
+tilefile_scd/Dallas.csv
+Dallas
+[6, 7, 8, 9]
+3  subtask_working
+tilefile_scd/Philadelphia.csv
+Philadelphia
+tilefile_scd/Phoenix.csv
+Phoenix
+tilefile_scd/San Antonio.csv
+San Antonio
+tilefile_scd/San Diego.csv
+San Diego
+[4, 5]
+2  subtask_working
+tilefile_scd/Los Angeles.csv
+Los Angeles
+tilefile_scd/New York.csv
+New York
+cost_time 37931.397498846054 s

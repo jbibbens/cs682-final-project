@@ -1,0 +1,80 @@
+Using device: cuda
+Loading GASSL checkpoint from /home/saddy_umass_edu/cs682-final-project/checkpoints/gassl_mocov2_tp_resnet50.pth.tar
+Missing keys: ['fc.weight', 'fc.bias']
+GASSL ResNet-50 loaded. Feature dim: 2048
+Loaded GASSL model from /home/saddy_umass_edu/cs682-final-project/checkpoints/best_model_gassl.pth
+Warning: Los Angeles/60371021072 has no label, skipping.
+Warning: Los Angeles/60371032012 has no label, skipping.
+Warning: Los Angeles/60371032021 has no label, skipping.
+Warning: Los Angeles/60371034011 has no label, skipping.
+Warning: Los Angeles/60371047043 has no label, skipping.
+Warning: Los Angeles/60371060102 has no label, skipping.
+Warning: Los Angeles/60371061123 has no label, skipping.
+Warning: Los Angeles/60371081023 has no label, skipping.
+Warning: Los Angeles/60371082022 has no label, skipping.
+Warning: Los Angeles/60371082023 has no label, skipping.
+Warning: Los Angeles/60371082031 has no label, skipping.
+Warning: Los Angeles/60371082041 has no label, skipping.
+Warning: Los Angeles/60371113032 has no label, skipping.
+Warning: Los Angeles/60371114011 has no label, skipping.
+Warning: Los Angeles/60371134241 has no label, skipping.
+Warning: Los Angeles/60371134261 has no label, skipping.
+Warning: Los Angeles/60371151031 has no label, skipping.
+Warning: Los Angeles/60371211022 has no label, skipping.
+Warning: Los Angeles/60371344213 has no label, skipping.
+Warning: Los Angeles/60371349052 has no label, skipping.
+Warning: Los Angeles/60371352041 has no label, skipping.
+Warning: Los Angeles/60371352051 has no label, skipping.
+Warning: Los Angeles/60371352052 has no label, skipping.
+Warning: Los Angeles/60371375013 has no label, skipping.
+Warning: Los Angeles/60371397041 has no label, skipping.
+Warning: Los Angeles/60371397051 has no label, skipping.
+Warning: Los Angeles/60371397052 has no label, skipping.
+Warning: Los Angeles/60371397053 has no label, skipping.
+Warning: Los Angeles/60371398012 has no label, skipping.
+Warning: Los Angeles/60371398022 has no label, skipping.
+Warning: Los Angeles/60371431011 has no label, skipping.
+Warning: Los Angeles/60371437003 has no label, skipping.
+Warning: Los Angeles/60371438011 has no label, skipping.
+Warning: Los Angeles/60371438022 has no label, skipping.
+Warning: Los Angeles/60371439011 has no label, skipping.
+Warning: Los Angeles/60371439013 has no label, skipping.
+Warning: Los Angeles/60371851021 has no label, skipping.
+Warning: Los Angeles/60371897031 has no label, skipping.
+Warning: Los Angeles/60371897032 has no label, skipping.
+Warning: Los Angeles/60371941012 has no label, skipping.
+Warning: Los Angeles/60371990022 has no label, skipping.
+Warning: Los Angeles/60372060511 has no label, skipping.
+Warning: Los Angeles/60372060521 has no label, skipping.
+Warning: Los Angeles/60372312202 has no label, skipping.
+Warning: Los Angeles/60372611023 has no label, skipping.
+Warning: Los Angeles/60372611031 has no label, skipping.
+Warning: Los Angeles/60372611041 has no label, skipping.
+Warning: Los Angeles/60372622003 has no label, skipping.
+Warning: Los Angeles/60372623022 has no label, skipping.
+Warning: Los Angeles/60372626012 has no label, skipping.
+Warning: Los Angeles/60372626043 has no label, skipping.
+Warning: Los Angeles/60372626045 has no label, skipping.
+Warning: Los Angeles/60372627042 has no label, skipping.
+Warning: Los Angeles/60372920011 has no label, skipping.
+Warning: Los Angeles/60372975021 has no label, skipping.
+Warning: Los Angeles/60379800081 has no label, skipping.
+Warning: Los Angeles/60379800091 has no label, skipping.
+Warning: Los Angeles/60379800141 has no label, skipping.
+Warning: Los Angeles/60379800201 has no label, skipping.
+Warning: Los Angeles/60379800211 has no label, skipping.
+Warning: Los Angeles/60379800221 has no label, skipping.
+Warning: Los Angeles/60379800231 has no label, skipping.
+Warning: Los Angeles/60379800261 has no label, skipping.
+Warning: Los Angeles/60379800281 has no label, skipping.
+Warning: Los Angeles/60379800311 has no label, skipping.
+Warning: Los Angeles/60379902000 has no label, skipping.
+Loaded 184 tracts from /home/saddy_umass_edu/cs682-final-project/satellite_imagery_collection/data_dir/test
+
+=== Test Results (GASSL) ===
+  Samples : 184
+  MAE     : 0.0628
+  RMSE    : 0.0882
+  R²      : 0.0462
+
+Predictions saved to /home/saddy_umass_edu/cs682-final-project/checkpoints/test_predictions_gassl.csv
