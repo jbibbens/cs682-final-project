@@ -117,15 +117,15 @@ def subtask(order,Npara,Nlp,csv_file_list,token):
 
 def main(csv_file_list):
     # This runs it linearly so you can see errors
-    for i in range(Npara):
-        subtask(str(i), Npara, Nlp, csv_file_list, token)
-    # p = Pool()
-    # # print(Npara)
     # for i in range(Npara):
-    #     # print(i)
-    #     p.apply_async(func=subtask, args=(str(i),Npara,Nlp,csv_file_list,token,))
-    # p.close()
-    # p.join()
+    #     subtask(str(i), Npara, Nlp, csv_file_list, token)
+    p = Pool()
+    # print(Npara)
+    for i in range(Npara):
+        # print(i)
+        p.apply_async(func=subtask, args=(str(i),Npara,Nlp,csv_file_list,token,))
+    p.close()
+    p.join()
     # print('All subprocesses done.')
     # lng_lat.to_csv('sat2region.csv')
 
