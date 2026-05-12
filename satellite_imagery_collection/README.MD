@@ -1,4 +1,4 @@
-This folder contains the codes for 
+This folder contains scripts for 
 
 ### generating image tile numbers according to the city boundary files: 
 
@@ -8,13 +8,8 @@ make_tile_scd.py,
 
 download_image.py,
 
-### geolocating satellite images by the central coordinates into CBGs: 
 
-image_to_geoloc.py and image_to_geoloc_spatial_join_cbg.py
-
-##
-
-## Note on Cities 
+### Note on Cities 
 Census tract count per city
 New York city        4217
 Los Angeles city     1993
@@ -62,29 +57,3 @@ There are 536 distinct CBGs in Jacksonville with more than 20 rows.
 
 Leave out LA: test is 13.8%
 Remainder 5249 I want 18.8% of these to go to val
-
-Number of tracts in New York with missing CBG Code: 184.0
-Number of tracts in Los Angeles with missing CBG Code: 66.0
-Number of tracts in Chicago with missing CBG Code: 33.0
-Number of tracts in Dallas with missing CBG Code: 0.0
-Number of tracts in Houston with missing CBG Code: 151.0
-Number of tracts in Phoenix with missing CBG Code: 82.0
-Number of tracts in Philadelphia with missing CBG Code: 66.0
-Number of tracts in San Antonio with missing CBG Code: 49.0
-Number of tracts in San Diego with missing CBG Code: 37.0
-Number of tracts in Jacksonville with missing CBG Code: 123.0
-
-66/791
-
-Number of tracts in New York with valid CBG Code: 53.0
-Number of tracts in Los Angeles with valid CBG Code: 184.0
-Number of tracts in Chicago with valid CBG Code: 217.0
-Number of tracts in Dallas with valid CBG Code: 254.0
-Number of tracts in Houston with valid CBG Code: 99.0
-Number of tracts in Phoenix with valid CBG Code: 177.0
-Number of tracts in Philadelphia with valid CBG Code: 171.0
-Number of tracts in San Antonio with valid CBG Code: 201.0
-Number of tracts in San Diego with valid CBG Code: 162.0
-Number of tracts in Jacksonville with valid CBG Code: 127.0
-
-1645
