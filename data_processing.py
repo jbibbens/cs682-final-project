@@ -84,7 +84,8 @@ def right_size():
         X = 20 
 
         # 2. Load your data
-        df = pd.read_csv(f'./image_to_cbg_unfiltered/final_image_to_cbg_{city}.csv')
+        #df = pd.read_csv(f'./image_to_cbg_unfiltered/final_image_to_cbg_{city}.csv')
+        df = pd.read_csv(f'filtered_cities.csv')
         # 2. Get counts for each CBG
         cbg_counts = df['CBG Code'].value_counts()
 
@@ -157,11 +158,11 @@ def left_semi_join():
         final_output.to_csv(f'./satellite_imagery_collection/tilefile_scd/{city}.csv', index=False)
 
 def do_merge():
-    city_list = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Dallas', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
-    
+    #city_list = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Dallas', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
+    city_list = ['Dallas']
     for city in city_list:
-        mapping_df = pd.read_csv(f'./image_to_cbg/stratified_sample_{city}.csv')
-        input_df = pd.read_csv(f'./satellite_imagery_collection/tilefile_scd/{city}_filtered.csv')
+        mapping_df = pd.read_csv(f'./labels/{city}.csv')
+        input_df = pd.read_csv(f'./satellite_imagery_collection/tilefile_scd/{city}.csv')
 
         # 2. Create the matching string in input_df
         # Ensure this matches your mapping format (y_x.png)
@@ -237,11 +238,31 @@ def filter_no_data():
 
 def remove_extra_col():
 
-    city_list = city_list = ['New York', 'Los Angeles', 'Chicago','Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
+    #city_list  = ['New York', 'Los Angeles', 'Chicago','Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
 
+    city_list  = ['Jacksonville']
     for city in city_list:
-        df = pd.read_csv(f'./labels/{city}.csv')
-        df = df.drop(columns=['Poverty Rate_y'])
-        df.to_csv(f'./labels/{city}.csv', index=False)
 
-remove_extra_col()
+       # df = pd.read_csv(f'./labels/{city}.csv')
+        df = pd.read_csv(f'./satellite_imagery_collection/tilefile_scd/{city}.csv')
+        df = df.drop(columns=['CBG Code_y'])
+        df.to_csv(f'./satellite_imagery_collection/tilefile_scd/{city}.csv', index=False)
+        #df.to_csv(f'./labels/{city}.csv', index=False)
+
+def count_missing_data():
+    city_list  = ['New York', 'Los Angeles', 'Chicago','Dallas','Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Jacksonville']
+    for city in city_list:
+        df_a = pd.read_csv(f'./labels/{city}.csv')
+        df_b = pd.read_csv(f'./satellite_imagery_collection/tilefile_scd/{city}.csv')
+
+        # Ensure the CBG column is treated as a string to avoid rounding
+        # Replace 'cbg_column_name' with the actual header in your files
+        cbg_a = df_a['CBG Code'].astype(str)
+        cbg_b = df_b['CBG Code'].astype(str)
+
+        # Find rows in A that are NOT in B
+        missing_in_b = df_a[cbg_a.isin(cbg_b)]
+
+        print(f"Number of tracts in {city} with valid CBG Code: {len(missing_in_b)/20}")
+
+right_size()
